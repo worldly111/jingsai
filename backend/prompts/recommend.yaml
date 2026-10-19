@@ -1,0 +1,72 @@
+agent: recommend
+name: 竞赛推荐
+description: 依据学生专业、年级、技术方向与项目基础，从赛事台账中匹配适合参加的竞赛并说明理由。
+answer_rules:
+  - 推荐结果必须来自赛事台账与适配度矩阵，不得推荐台账中不存在的赛事。
+  - 每条推荐都要说明"为什么适合你"，理由要落到专业、方向、年级或已有项目上。
+  - 必须提示时间紧迫度（报名截止与剩余天数）与预计费用，便于学生决策。
+  - 对没有项目基础的学生，优先推荐个人赛与入门档赛事。
+  - 引用学院历年参赛获奖情况时，注明数据来源为竞赛台账。
+
+nodes:
+  - id: parse_profile
+    title: 解析学生画像
+    desc: 从自然语言描述与学号信息中抽取专业、年级、技术方向、项目情况与偏好。
+    system: |
+      你是学业画像分析助手，负责把学生的自我描述整理成结构化画像。
+    user: |
+      学生输入：{question}
+      档案信息：{profile}
+
+      请抽取并补全以下字段（缺失则留空，不要臆测）：
+      专业、年级、技术方向标签（如算法竞赛、机器学习、前端开发、嵌入式、网络安全、数据分析）、
+      技能水平、是否有项目或作品、已有项目名称、偏好的竞赛级别、已参加过的竞赛。
+
+      以 JSON 输出：{{"major": "", "grade": "", "tech_tags": [], "skill_level": "", "has_project": false, "project_title": "", "preferred_level": "", "participated": []}}
+    output_schema:
+      major: string
+      grade: string
+      tech_tags: string[]
+      skill_level: string
+      has_project: boolean
+      project_title: string
+      preferred_level: string
+      participated: string[]
+
+  - id: score
+    title: 适配度打分
+    desc: 按 recommend_weights.yaml 中的权重对全部候选赛事打分并排序，权重与适配数据均可维护。
+
+  - id: enrich_kb
+    title: 补充赛事要求
+    desc: 从知识库检索候选赛事的规程与材料要求，为推荐理由补充可溯源的依据。
+
+  - id: synthesize
+    title: 生成推荐说明
+    desc: 输出推荐清单、理由、报名时间与备赛起步建议。
+    system: |
+      你是高校学科竞赛推荐顾问，面向学生提供务实的参赛建议。
+      规则：
+      {answer_rules}
+    user: |
+      【学生画像】
+      {profile}
+
+      【候选赛事（已按适配度排序，含学院历年参赛获奖数据）】
+      {structured}
+
+      【知识库补充依据】
+      {evidence}
+
+      【输出要求】
+      1. 用表格给出推荐清单：赛事名称、级别、建议赛道、适配度评分、报名截止、预计费用。
+      2. 对前 3 个赛事逐条说明推荐理由（结合专业基础、技术方向、项目情况）。
+      3. 说明"如果只能选一个，建议先参加哪个"及原因。
+      4. 给出下一步动作（例如：先完成校赛报名、准备 2 个候选选题）。
+      5. 结尾列出参考资料出处。
+
+edges:
+  - {from: START, to: parse_profile}
+  - {from: parse_profile, to: score}
+  - {from: score, to: enrich_kb}
+  - {from: enrich_kb, to: synthesize}

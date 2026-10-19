@@ -1,0 +1,890 @@
+{
+  "_note": "赛事目录与届次信息。日期与费用为演示用的参考口径，正式使用时请按学校当年通知在「赛事台账」中更新。",
+  "competitions": [
+    {
+      "code": "LANQIAO",
+      "name": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "short_name": "蓝桥杯",
+      "organizer": "工业和信息化部人才交流中心",
+      "co_organizer": "国信蓝桥教育科技（北京）股份有限公司",
+      "level": "国家级",
+      "category": "程序设计与算法类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["算法竞赛", "程序设计", "软件开发"],
+      "official_url": "https://dasai.lanqiao.cn",
+      "intro": "面向高校学生的全国性软件与信息技术赛事，设软件赛（C/C++、Java、Python、Web 应用开发等）与电子赛（单片机、EDA、物联网等）赛道。个人赛为主，按校赛、省赛、全国决赛三级选拔，省赛与国赛均设置一、二、三等奖。",
+      "target_audience": "计算机类相关专业本专科生、研究生；个人赛，适合作为程序设计入门到进阶的主线赛事。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "第十七届",
+          "notice_title": "关于举办第十七届蓝桥杯全国软件和信息技术专业人才大赛的通知",
+          "notice_no": "蓝桥杯组委〔2025〕6号",
+          "issued_by": "蓝桥杯大赛组委会",
+          "issued_date": "2025-09-20",
+          "register_start": "2025-10-08",
+          "register_end": "2026-03-20",
+          "competition_period": "省赛 2026-04-11，全国决赛 2026-06-13 至 06-14",
+          "eligibility": "具有正式学籍的在校本科生、专科生及研究生均可报名；软件赛为个人赛，每位选手可报 1 个科目；报名由各院校赛事负责人在大赛官网统一组织。",
+          "team_size_min": 1,
+          "team_size_max": 1,
+          "mentor_limit": 1,
+          "registration_fee": 300,
+          "fee_note": "报名费 300 元/人（软件赛个人赛），由参赛院校统一收取后在线缴纳；电子赛部分赛项按赛项标准执行。",
+          "required_materials": ["参赛报名表", "学生证复印件", "身份证复印件", "学籍在线验证报告"],
+          "material_note": "报名信息须与学籍信息一致；省赛与国赛凭准考证和身份证入场；电子赛需按赛项要求提交设计报告与作品源文件。",
+          "status": "往届",
+          "source_ref": "蓝桥杯大赛官网 https://dasai.lanqiao.cn（参考口径，以当年正式通知为准）",
+          "tracks": [
+            {"name": "软件赛-C/C++程序设计", "description": "大学 A 组、B 组、C 组，考察算法与程序设计能力。", "requirements": ["C/C++ 语言", "算法与数据结构"], "discipline_tags": ["算法竞赛", "程序设计"], "fee": 300},
+            {"name": "软件赛-Python 程序设计", "description": "考察 Python 语言与算法应用能力。", "requirements": ["Python", "算法与数据结构"], "discipline_tags": ["算法竞赛", "编程"], "fee": 300},
+            {"name": "软件赛-Web 应用开发", "description": "基于 Web 技术的应用设计与开发。", "requirements": ["HTML/CSS/JavaScript", "Web 框架"], "discipline_tags": ["前端开发", "后端开发"], "fee": 300},
+            {"name": "电子赛-单片机设计与开发", "description": "基于单片机平台的硬件设计与程序开发。", "requirements": ["C 语言", "单片机", "电路基础"], "discipline_tags": ["嵌入式", "电子设计"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "报名开始", "stage": "报名", "start_date": "2025-10-08", "end_date": "2025-10-08", "note": "大赛官网开放报名，院校账号统一组织。"},
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-03-20", "end_date": "2026-03-20", "note": "逾期不再补报，报名费缴纳后不退。"},
+            {"name": "省赛", "stage": "省赛", "start_date": "2026-04-11", "end_date": "2026-04-12", "note": "各省赛点统一机考。"},
+            {"name": "全国决赛", "stage": "国赛", "start_date": "2026-06-13", "end_date": "2026-06-14", "note": "省赛一等奖选手入围国赛。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "10%", "quantity": "", "prize": "电子证书", "note": "省赛一等奖入围全国决赛。"},
+            {"award_level": "二等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "电子证书", "note": "省赛二等奖。"},
+            {"award_level": "三等奖", "category": "省级", "ratio": "30%", "quantity": "", "prize": "电子证书", "note": "省赛三等奖。"},
+            {"award_level": "特等奖", "category": "国家级", "ratio": "1%", "quantity": "", "prize": "证书 + 奖金", "note": "国赛特等奖（按赛项设置）。"},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "8%", "quantity": "", "prize": "证书 + 奖金", "note": "国赛一等奖。"},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "15%", "quantity": "", "prize": "证书", "note": "国赛二等奖。"},
+            {"award_level": "三等奖", "category": "国家级", "ratio": "25%", "quantity": "", "prize": "证书", "note": "国赛三等奖。"}
+          ]
+        },
+        {
+          "year": 2027,
+          "edition_name": "第十八届",
+          "notice_title": "关于举办第十八届蓝桥杯全国软件和信息技术专业人才大赛的通知",
+          "notice_no": "蓝桥杯组委〔2026〕5号",
+          "issued_by": "蓝桥杯大赛组委会",
+          "issued_date": "2026-09-18",
+          "register_start": "2026-10-08",
+          "register_end": "2027-03-19",
+          "competition_period": "省赛 2027-04-10，全国决赛 2027-06-12 至 06-13",
+          "eligibility": "具有正式学籍的在校本科生、专科生及研究生均可报名；软件赛为个人赛，每位选手可报 1 个科目；报名由各院校赛事负责人在大赛官网统一组织。",
+          "team_size_min": 1,
+          "team_size_max": 1,
+          "mentor_limit": 1,
+          "registration_fee": 300,
+          "fee_note": "报名费 300 元/人（软件赛个人赛）；电子赛按赛项标准执行。",
+          "required_materials": ["参赛报名表", "学生证复印件", "身份证复印件", "学籍在线验证报告"],
+          "material_note": "报名信息须与学籍信息一致；省赛与国赛凭准考证和身份证入场。",
+          "status": "进行中",
+          "source_ref": "蓝桥杯大赛官网 https://dasai.lanqiao.cn（参考口径，以当年正式通知为准）",
+          "tracks": [
+            {"name": "软件赛-C/C++程序设计", "description": "大学 A 组、B 组、C 组，考察算法与程序设计能力。", "requirements": ["C/C++ 语言", "算法与数据结构"], "discipline_tags": ["算法竞赛", "程序设计"], "fee": 300},
+            {"name": "软件赛-Python 程序设计", "description": "考察 Python 语言与算法应用能力。", "requirements": ["Python", "算法与数据结构"], "discipline_tags": ["算法竞赛", "编程"], "fee": 300},
+            {"name": "软件赛-Web 应用开发", "description": "基于 Web 技术的应用设计与开发。", "requirements": ["HTML/CSS/JavaScript", "Web 框架"], "discipline_tags": ["前端开发", "后端开发"], "fee": 300},
+            {"name": "电子赛-单片机设计与开发", "description": "基于单片机平台的硬件设计与程序开发。", "requirements": ["C 语言", "单片机", "电路基础"], "discipline_tags": ["嵌入式", "电子设计"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "报名开始", "stage": "报名", "start_date": "2026-10-08", "end_date": "2026-10-08", "note": "大赛官网开放报名。"},
+            {"name": "报名截止", "stage": "报名", "start_date": "2027-03-19", "end_date": "2027-03-19", "note": "逾期不再补报。"},
+            {"name": "省赛", "stage": "省赛", "start_date": "2027-04-10", "end_date": "2027-04-11", "note": "各省赛点统一机考。"},
+            {"name": "全国决赛", "stage": "国赛", "start_date": "2027-06-12", "end_date": "2027-06-13", "note": "省赛一等奖选手入围国赛。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "10%", "quantity": "", "prize": "电子证书", "note": "省赛一等奖入围全国决赛。"},
+            {"award_level": "二等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "电子证书", "note": "省赛二等奖。"},
+            {"award_level": "三等奖", "category": "省级", "ratio": "30%", "quantity": "", "prize": "电子证书", "note": "省赛三等奖。"},
+            {"award_level": "特等奖", "category": "国家级", "ratio": "1%", "quantity": "", "prize": "证书 + 奖金", "note": "国赛特等奖（按赛项设置）。"},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "8%", "quantity": "", "prize": "证书 + 奖金", "note": "国赛一等奖。"},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "15%", "quantity": "", "prize": "证书", "note": "国赛二等奖。"},
+            {"award_level": "三等奖", "category": "国家级", "ratio": "25%", "quantity": "", "prize": "证书", "note": "国赛三等奖。"}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.98, "reason": "算法与程序设计基础直接对应软件赛考察内容", "recommended_grade": "大一及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.94, "reason": "程序设计能力与 Web 应用开发赛道高度契合", "recommended_grade": "大一及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.9, "reason": "算法能力可用 Python 赛道发挥", "recommended_grade": "大一及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "数据科学与大数据技术", "fit_score": 0.85, "reason": "Python 程序设计赛道适配数据分析背景", "recommended_grade": "大一及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "物联网工程", "fit_score": 0.82, "reason": "可参加电子赛单片机设计与开发赛道", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "算法竞赛", "fit_score": 0.95, "reason": "核心考察算法与数据结构", "recommended_grade": "", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "编程", "fit_score": 0.9, "reason": "个人赛形式适合检验编程基本功", "recommended_grade": "", "difficulty": "入门"},
+        {"match_type": "tech_tag", "match_value": "嵌入式", "fit_score": 0.8, "reason": "电子赛单片机赛道与本方向匹配", "recommended_grade": "", "difficulty": "中"}
+      ]
+    },
+    {
+      "code": "NCSIC",
+      "name": "中国国际大学生创新大赛",
+      "short_name": "创新大赛",
+      "organizer": "教育部等十二部委",
+      "co_organizer": "各省级教育行政部门、有关高校",
+      "level": "国家级",
+      "category": "综合创新类",
+      "competition_type": "创新创业",
+      "discipline_tags": ["创新创业", "项目孵化", "商业计划"],
+      "official_url": "https://cy.ncss.cn",
+      "intro": "原“互联网+”大学生创新创业大赛，是国内规模最大的大学生创新创业赛事。设高教主赛道、青年红色筑梦之旅赛道、职教赛道、产业命题赛道等，按校级初赛、省级复赛、全国总决赛三级赛制，国赛设金奖、银奖、铜奖。",
+      "target_audience": "全体在校生及毕业 5 年内校友，以团队形式参赛，鼓励跨专业组队。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "第十二届",
+          "notice_title": "教育部关于举办中国国际大学生创新大赛（2026）的通知",
+          "notice_no": "教高函〔2026〕3号",
+          "issued_by": "教育部",
+          "issued_date": "2026-03-12",
+          "register_start": "2026-03-20",
+          "register_end": "2026-05-31",
+          "competition_period": "校级初赛 2026-05，省级复赛 2026-06 至 07，全国总决赛 2026-09 至 10",
+          "eligibility": "普通高校在校生（含本专科生、研究生）及毕业 5 年内校友均可组队参赛；每队 3-15 人（含团队负责人），须有 1-3 名指导教师，鼓励跨校跨专业组队。",
+          "team_size_min": 3,
+          "team_size_max": 15,
+          "mentor_limit": 3,
+          "registration_fee": 0,
+          "fee_note": "大赛不收取报名费；参赛产生的差旅与作品制作费用可按学院竞赛经费规定申请。",
+          "required_materials": ["项目报名表", "商业计划书（PDF）", "项目演示 PPT", "知识产权与佐证材料", "团队承诺书"],
+          "material_note": "商业计划书建议 20 页以内；涉及专利、软著、检测报告的须附佐证；涉密项目不得参赛。",
+          "status": "往届",
+          "source_ref": "全国大学生创业服务网 https://cy.ncss.cn（参考口径）",
+          "tracks": [
+            {"name": "高教主赛道-本科生创意组", "description": "面向本科生创意项目，重点考察创新性与可行性。", "requirements": ["商业计划书", "演示 PPT"], "discipline_tags": ["创新创业"], "fee": 0},
+            {"name": "高教主赛道-本科生创业组", "description": "已注册公司或实际运营的项目。", "requirements": ["商业计划书", "营业执照", "财务数据"], "discipline_tags": ["创新创业"], "fee": 0},
+            {"name": "产业命题赛道", "description": "由行业企业出题，团队揭榜答题。", "requirements": ["命题解决方案", "佐证材料"], "discipline_tags": ["创新创业", "工程实践"], "fee": 0}
+          ],
+          "milestones": [
+            {"name": "报名开始", "stage": "报名", "start_date": "2026-03-20", "end_date": "2026-03-20", "note": "登录全国大学生创业服务网报名。"},
+            {"name": "校级初赛", "stage": "校赛", "start_date": "2026-05-10", "end_date": "2026-05-20", "note": "学院推荐、学校评审后报省。"},
+            {"name": "省级复赛", "stage": "省赛", "start_date": "2026-06-15", "end_date": "2026-07-10", "note": "省赛设金奖、银奖、铜奖。"},
+            {"name": "全国总决赛", "stage": "国赛", "start_date": "2026-09-20", "end_date": "2026-10-15", "note": "现场答辩，分赛道评审。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "10%", "quantity": "", "prize": "省级金奖证书", "note": "对应省级金奖，推荐进入国赛。"},
+            {"award_level": "二等奖", "category": "省级", "ratio": "15%", "quantity": "", "prize": "省级银奖证书", "note": "对应省级银奖。"},
+            {"award_level": "三等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "省级铜奖证书", "note": "对应省级铜奖。"},
+            {"award_level": "特等奖", "category": "国家级", "ratio": "3%", "quantity": "", "prize": "国赛金奖证书 + 奖金", "note": "对应国赛金奖。"},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "6%", "quantity": "", "prize": "国赛银奖证书", "note": "对应国赛银奖。"},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "10%", "quantity": "", "prize": "国赛铜奖证书", "note": "对应国赛铜奖。"}
+          ]
+        },
+        {
+          "year": 2027,
+          "edition_name": "第十三届",
+          "notice_title": "关于启动中国国际大学生创新大赛（2027）校级选拔的通知",
+          "notice_no": "校创赛〔2026〕2号",
+          "issued_by": "学校创新创业学院",
+          "issued_date": "2026-09-30",
+          "register_start": "2027-03-15",
+          "register_end": "2027-05-31",
+          "competition_period": "校级初赛 2027-05，省级复赛 2027-06 至 07，全国总决赛 2027-09 至 10",
+          "eligibility": "普通高校在校生及毕业 5 年内校友均可组队参赛；每队 3-15 人，须有 1-3 名指导教师。",
+          "team_size_min": 3,
+          "team_size_max": 15,
+          "mentor_limit": 3,
+          "registration_fee": 0,
+          "fee_note": "不收取报名费。",
+          "required_materials": ["项目报名表", "商业计划书（PDF）", "项目演示 PPT", "知识产权与佐证材料", "团队承诺书"],
+          "material_note": "商业计划书建议 20 页以内；专利、软著等佐证材料须真实有效。",
+          "status": "筹备中",
+          "source_ref": "学校创新创业学院通知（参考口径，以正式通知为准）",
+          "tracks": [
+            {"name": "高教主赛道-本科生创意组", "description": "面向本科生创意项目。", "requirements": ["商业计划书", "演示 PPT"], "discipline_tags": ["创新创业"], "fee": 0},
+            {"name": "高教主赛道-本科生创业组", "description": "已注册公司或实际运营的项目。", "requirements": ["商业计划书", "营业执照"], "discipline_tags": ["创新创业"], "fee": 0}
+          ],
+          "milestones": [
+            {"name": "校赛报名", "stage": "报名", "start_date": "2027-03-15", "end_date": "2027-05-31", "note": "学院汇总项目后统一报送。"},
+            {"name": "校级初赛", "stage": "校赛", "start_date": "2027-05-10", "end_date": "2027-05-25", "note": "校赛路演与答辩。"},
+            {"name": "省级复赛", "stage": "省赛", "start_date": "2027-06-15", "end_date": "2027-07-15", "note": "以省教育厅通知为准。"},
+            {"name": "全国总决赛", "stage": "国赛", "start_date": "2027-09-20", "end_date": "2027-10-20", "note": "以大赛组委会通知为准。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "校级", "ratio": "15%", "quantity": "", "prize": "校赛金奖证书", "note": "校赛金奖，推荐参加省赛。"},
+            {"award_level": "二等奖", "category": "校级", "ratio": "25%", "quantity": "", "prize": "校赛银奖证书", "note": "校赛银奖。"},
+            {"award_level": "三等奖", "category": "校级", "ratio": "30%", "quantity": "", "prize": "校赛铜奖证书", "note": "校赛铜奖。"}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.9, "reason": "软件类项目可包装为互联网+产品，评审看重落地性", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.86, "reason": "技术型项目需说明创新点与商业价值", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.9, "reason": "AI 应用类项目在创意组与产业命题赛道均占优势", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "数据科学与大数据技术", "fit_score": 0.85, "reason": "数据驱动型项目适合参赛，需补充商业验证", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "物联网工程", "fit_score": 0.82, "reason": "智能硬件项目可参与产业命题赛道", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "创新创业", "fit_score": 0.95, "reason": "赛事核心考察创新创业能力", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "前端开发", "fit_score": 0.75, "reason": "可作为项目产品原型的技术实现者", "recommended_grade": "", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "视觉设计", "fit_score": 0.8, "reason": "商业计划书与路演材料需要设计能力支撑", "recommended_grade": "", "difficulty": "中"}
+      ]
+    },
+    {
+      "code": "CUMCM",
+      "name": "全国大学生数学建模竞赛",
+      "short_name": "数学建模国赛",
+      "organizer": "中国工业与应用数学学会",
+      "co_organizer": "各赛区组委会",
+      "level": "国家级",
+      "category": "数学建模类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["数学建模", "数据分析", "论文写作"],
+      "official_url": "https://www.mcm.edu.cn",
+      "intro": "国内规模最大的数学建模赛事，三人一队，在连续三天内针对实际问题建立数学模型并完成一篇论文。设本科组与专科组，按赛区评阅后推荐全国评奖，国赛设一、二等奖，赛区设一、二、三等奖。",
+      "target_audience": "理工经管类在校本科生，三人组队，建议数学建模、编程、写作能力互补。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "2026 年竞赛",
+          "notice_title": "关于组织参加 2026 年全国大学生数学建模竞赛的通知",
+          "notice_no": "数模竞组〔2026〕1号",
+          "issued_by": "全国大学生数学建模竞赛组委会",
+          "issued_date": "2026-06-01",
+          "register_start": "2026-06-10",
+          "register_end": "2026-08-31",
+          "competition_period": "2026-09-10 18:00 至 2026-09-13 20:00（连续 74 小时）",
+          "eligibility": "全日制在校本科生，三人一组，可跨专业组队；每队可设 1 名指导教师；报名费按赛区标准收取。",
+          "team_size_min": 3,
+          "team_size_max": 3,
+          "mentor_limit": 1,
+          "registration_fee": 100,
+          "fee_note": "报名费 100 元/队（赛区标准不同，以本校通知为准），用于赛区评审与组织。",
+          "required_materials": ["报名信息表", "参赛承诺书", "竞赛论文（PDF，含附录代码）", "支撑材料压缩包"],
+          "material_note": "论文须按竞赛模板排版，不得出现学校与姓名等信息；支撑材料含程序源码、数据与结果文件，超过 20MB 需分卷。",
+          "status": "往届",
+          "source_ref": "全国大学生数学建模竞赛官网 https://www.mcm.edu.cn（参考口径）",
+          "tracks": [
+            {"name": "本科组", "description": "A/B/C 题，覆盖物理、工程、数据分析与社会问题。", "requirements": ["数学建模", "编程实现", "论文写作"], "discipline_tags": ["数学建模", "数据分析"], "fee": 100}
+          ],
+          "milestones": [
+            {"name": "报名开始", "stage": "报名", "start_date": "2026-06-10", "end_date": "2026-06-10", "note": "通过学校竞赛管理系统报名。"},
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-08-31", "end_date": "2026-08-31", "note": "逾期不再补报。"},
+            {"name": "竞赛时间", "stage": "国赛", "start_date": "2026-09-10", "end_date": "2026-09-13", "note": "连续 74 小时，线上提交论文。"},
+            {"name": "赛区评审", "stage": "省赛", "start_date": "2026-09-25", "end_date": "2027-01-10", "note": "赛区评阅后推荐全国评奖。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "8%", "quantity": "", "prize": "赛区一等奖证书", "note": "赛区一等奖。"},
+            {"award_level": "二等奖", "category": "省级", "ratio": "15%", "quantity": "", "prize": "赛区二等奖证书", "note": "赛区二等奖。"},
+            {"award_level": "三等奖", "category": "省级", "ratio": "25%", "quantity": "", "prize": "赛区三等奖证书", "note": "赛区三等奖。"},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "1.5%", "quantity": "", "prize": "全国一等奖证书", "note": "从赛区一等奖中推荐评选。"},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "6%", "quantity": "", "prize": "全国二等奖证书", "note": "从赛区推荐队中评选。"}
+          ]
+        },
+        {
+          "year": 2027,
+          "edition_name": "2027 年竞赛",
+          "notice_title": "关于组织参加 2027 年全国大学生数学建模竞赛的预通知",
+          "notice_no": "数模竞组〔2026〕5号",
+          "issued_by": "全国大学生数学建模竞赛组委会",
+          "issued_date": "2026-09-20",
+          "register_start": "2027-06-01",
+          "register_end": "2027-08-31",
+          "competition_period": "预计 2027-09-09 至 2027-09-12",
+          "eligibility": "全日制在校本科生，三人一组，可跨专业组队；每队可设 1 名指导教师。",
+          "team_size_min": 3,
+          "team_size_max": 3,
+          "mentor_limit": 1,
+          "registration_fee": 100,
+          "fee_note": "报名费按赛区标准收取，参考 100 元/队。",
+          "required_materials": ["报名信息表", "参赛承诺书", "竞赛论文（PDF）", "支撑材料压缩包"],
+          "material_note": "论文不得出现学校与姓名信息；支撑材料需完整可复现。",
+          "status": "筹备中",
+          "source_ref": "全国大学生数学建模竞赛官网（参考口径）",
+          "tracks": [
+            {"name": "本科组", "description": "A/B/C 题。", "requirements": ["数学建模", "编程实现", "论文写作"], "discipline_tags": ["数学建模", "数据分析"], "fee": 100}
+          ],
+          "milestones": [
+            {"name": "校内培训", "stage": "校赛", "start_date": "2027-04-10", "end_date": "2027-06-20", "note": "学院组织建模与论文写作培训。"},
+            {"name": "报名截止", "stage": "报名", "start_date": "2027-08-31", "end_date": "2027-08-31", "note": "以正式通知为准。"},
+            {"name": "竞赛时间", "stage": "国赛", "start_date": "2027-09-09", "end_date": "2027-09-12", "note": "预计时间，以正式通知为准。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "8%", "quantity": "", "prize": "赛区一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "省级", "ratio": "15%", "quantity": "", "prize": "赛区二等奖证书", "note": ""},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "1.5%", "quantity": "", "prize": "全国一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "6%", "quantity": "", "prize": "全国二等奖证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "数据科学与大数据技术", "fit_score": 0.96, "reason": "数据分析与统计建模是赛题核心能力", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.9, "reason": "编程实现与算法能力是三人队的关键分工", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.88, "reason": "机器学习方法可用于数据类赛题", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.8, "reason": "可承担编程与论文排版工作", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "数学建模", "fit_score": 0.98, "reason": "赛事核心方向", "recommended_grade": "", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "数据分析", "fit_score": 0.9, "reason": "数据预处理与可视化能力可直接应用", "recommended_grade": "", "difficulty": "中"}
+      ]
+    },
+    {
+      "code": "CCPC",
+      "name": "中国大学生程序设计竞赛",
+      "short_name": "CCPC",
+      "organizer": "中国大学生程序设计竞赛组委会",
+      "co_organizer": "各分站赛承办高校",
+      "level": "国家级",
+      "category": "程序设计与算法类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["算法竞赛", "程序设计", "团队协作"],
+      "official_url": "https://ccpc.io",
+      "intro": "面向全国高校的程序设计团队赛事，三人一队共用一台计算机，在 5 小时内解决若干算法问题。设网络赛、分站赛与总决赛，按解题数与罚时排名，是算法竞赛的最高水平赛事之一。",
+      "target_audience": "计算机相关专业本科生，需具备较强的算法与数据结构基础，三人组队。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "2026 赛季",
+          "notice_title": "2026 年中国大学生程序设计竞赛网络赛报名通知",
+          "notice_no": "CCPC〔2026〕3号",
+          "issued_by": "CCPC 组委会",
+          "issued_date": "2026-08-25",
+          "register_start": "2026-09-01",
+          "register_end": "2026-09-20",
+          "competition_period": "网络赛 2026-09-27，分站赛 2026-10 至 11，总决赛 2026-12",
+          "eligibility": "全日制在校本科生（含研究生可参加部分分站赛），三人一队，每队 1 名教练；同一学校参赛队数按分站赛名额分配。",
+          "team_size_min": 3,
+          "team_size_max": 3,
+          "mentor_limit": 1,
+          "registration_fee": 500,
+          "fee_note": "分站赛报名费 500 元/队（用于赛务与餐费），网络赛免费；差旅与住宿另行申请。",
+          "required_materials": ["参赛队报名表", "学生证信息", "教练信息表"],
+          "material_note": "队员名单报名截止后不得更换；现场赛须携带学生证与身份证核验。",
+          "status": "进行中",
+          "source_ref": "CCPC 官网 https://ccpc.io（参考口径）",
+          "tracks": [
+            {"name": "分站赛", "description": "各分站现场赛，三人一机，5 小时。", "requirements": ["算法与数据结构", "C++/Java/Python"], "discipline_tags": ["算法竞赛"], "fee": 500},
+            {"name": "女生专场", "description": "面向女大学生的专场赛事。", "requirements": ["算法与数据结构"], "discipline_tags": ["算法竞赛"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "网络赛报名", "stage": "报名", "start_date": "2026-09-01", "end_date": "2026-09-20", "note": "线上报名，免费。"},
+            {"name": "网络赛", "stage": "省赛", "start_date": "2026-09-27", "end_date": "2026-09-27", "note": "网络赛成绩决定分站赛名额。"},
+            {"name": "分站赛", "stage": "国赛", "start_date": "2026-10-24", "end_date": "2026-11-22", "note": "各分站赛时间不同，以官网为准。"},
+            {"name": "总决赛", "stage": "国赛", "start_date": "2026-12-12", "end_date": "2026-12-13", "note": "分站赛前列队伍参加。"}
+          ],
+          "award_settings": [
+            {"award_level": "特等奖", "category": "国家级", "ratio": "10%", "quantity": "", "prize": "金奖奖牌", "note": "分站赛前 10% 获金奖。"},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "20%", "quantity": "", "prize": "银奖奖牌", "note": "分站赛银奖。"},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "30%", "quantity": "", "prize": "铜奖奖牌", "note": "分站赛铜奖。"}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.98, "reason": "算法竞赛是专业核心能力的直接检验", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.88, "reason": "编程基础扎实者可组队参赛", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.85, "reason": "算法能力突出者可参加", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "算法竞赛", "fit_score": 0.99, "reason": "赛事核心考察算法设计与实现", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "编程", "fit_score": 0.9, "reason": "高强度编程实战", "recommended_grade": "", "difficulty": "高"}
+      ]
+    },
+    {
+      "code": "4C",
+      "name": "中国大学生计算机设计大赛",
+      "short_name": "计算机设计大赛",
+      "organizer": "中国大学生计算机设计大赛组织委员会",
+      "co_organizer": "各省级赛区、承办高校",
+      "level": "国家级",
+      "category": "程序设计与算法类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["软件开发", "数字媒体", "人工智能应用"],
+      "official_url": "https://jsjds.blcu.edu.cn",
+      "intro": "面向高校本科生的计算机设计类赛事，设软件应用与开发、数媒静态设计、数媒动漫与短片、人工智能应用、物联网应用等大类。按校赛、省赛、国赛三级选拔，国赛设一、二、三等奖。",
+      "target_audience": "计算机类及数字媒体相关专业本科生，以团队形式提交作品。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "第十九届",
+          "notice_title": "关于举办第十九届中国大学生计算机设计大赛的通知",
+          "notice_no": "4C 组委会〔2026〕2号",
+          "issued_by": "中国大学生计算机设计大赛组织委员会",
+          "issued_date": "2026-02-28",
+          "register_start": "2026-03-10",
+          "register_end": "2026-04-30",
+          "competition_period": "省赛 2026-05 至 06，国赛 2026-07 至 08",
+          "eligibility": "全日制在校本科生，每队 1-5 人，须有 1-2 名指导教师；每位学生限报 1 件作品，每队限报 1 个类别。",
+          "team_size_min": 1,
+          "team_size_max": 5,
+          "mentor_limit": 2,
+          "registration_fee": 300,
+          "fee_note": "报名费 300 元/件（省赛评审费），国赛不再另行收费。",
+          "required_materials": ["作品报名表", "作品设计与开发文档", "演示视频", "源码与部署说明", "原创性声明"],
+          "material_note": "演示视频 5 分钟以内；源码需可编译运行；不得使用未授权的第三方素材；涉密内容不得参赛。",
+          "status": "往届",
+          "source_ref": "大赛官网 https://jsjds.blcu.edu.cn（参考口径）",
+          "tracks": [
+            {"name": "软件应用与开发", "description": "Web 应用、管理系统、移动应用等。", "requirements": ["需求文档", "源码", "演示视频"], "discipline_tags": ["前端开发", "后端开发"], "fee": 300},
+            {"name": "人工智能应用", "description": "AI 应用类作品，含智能体、视觉识别等。", "requirements": ["算法说明", "模型与数据", "演示视频"], "discipline_tags": ["机器学习", "AI"], "fee": 300},
+            {"name": "数媒静态设计", "description": "数字媒体平面与交互设计作品。", "requirements": ["设计稿", "设计说明"], "discipline_tags": ["视觉设计"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "报名与作品提交", "stage": "报名", "start_date": "2026-03-10", "end_date": "2026-04-30", "note": "校内初选后统一提交省赛。"},
+            {"name": "省赛评审", "stage": "省赛", "start_date": "2026-05-15", "end_date": "2026-06-20", "note": "省赛一等奖推荐国赛。"},
+            {"name": "国赛评审", "stage": "国赛", "start_date": "2026-07-15", "end_date": "2026-08-20", "note": "现场答辩或线上评审。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "10%", "quantity": "", "prize": "省赛证书", "note": "推荐参加国赛。"},
+            {"award_level": "二等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "省赛证书", "note": ""},
+            {"award_level": "三等奖", "category": "省级", "ratio": "30%", "quantity": "", "prize": "省赛证书", "note": ""},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "8%", "quantity": "", "prize": "国赛证书", "note": ""},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "15%", "quantity": "", "prize": "国赛证书", "note": ""},
+            {"award_level": "三等奖", "category": "国家级", "ratio": "25%", "quantity": "", "prize": "国赛证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.95, "reason": "软件应用与开发赛道与专业培养方案高度一致", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.88, "reason": "可参加软件应用与人工智能应用赛道", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.9, "reason": "人工智能应用赛道与本专业直接对应", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "物联网工程", "fit_score": 0.82, "reason": "可参加物联网应用类作品", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "前端开发", "fit_score": 0.9, "reason": "Web 应用作品需要前端实现能力", "recommended_grade": "", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "视觉设计", "fit_score": 0.9, "reason": "数媒静态设计赛道直接对口", "recommended_grade": "", "difficulty": "入门"},
+        {"match_type": "tech_tag", "match_value": "机器学习", "fit_score": 0.85, "reason": "AI 应用赛道需要模型落地能力", "recommended_grade": "", "difficulty": "中"}
+      ]
+    },
+    {
+      "code": "NUEDC",
+      "name": "全国大学生电子设计竞赛",
+      "short_name": "电子设计竞赛",
+      "organizer": "教育部高等教育司、工业和信息化部人事教育司",
+      "co_organizer": "全国大学生电子设计竞赛组委会",
+      "level": "国家级",
+      "category": "电子电气类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["电子设计", "嵌入式", "硬件开发"],
+      "official_url": "https://www.nuedc-training.com.cn",
+      "intro": "奇数年举办全国赛、偶数年举办省赛（TI 杯），三人一队，在四天三夜内完成指定题目的硬件与软件设计并提交实物与设计报告。是电子类学科最具影响力的赛事。",
+      "target_audience": "电子信息、自动化、物联网、计算机等专业本科生，三人组队，需软硬件综合能力。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "2026 年省赛（TI 杯）",
+          "notice_title": "关于组织参加 2026 年省大学生电子设计竞赛（TI 杯）的通知",
+          "notice_no": "省电赛组〔2026〕1号",
+          "issued_by": "省大学生电子设计竞赛组委会",
+          "issued_date": "2026-03-20",
+          "register_start": "2026-04-01",
+          "register_end": "2026-06-15",
+          "competition_period": "2026-08-05 08:00 至 2026-08-08 20:00（四天三夜）",
+          "eligibility": "全日制在校本科生，三人一队，可跨专业组队；每队 1-2 名指导教师；参赛队须完成校内选拔。",
+          "team_size_min": 3,
+          "team_size_max": 3,
+          "mentor_limit": 2,
+          "registration_fee": 300,
+          "fee_note": "报名费 300 元/队，用于赛务组织；元器件与耗材费用可另行申请（标准见费用标准表 ES-HC-01）。",
+          "required_materials": ["参赛报名表", "选题确认表", "设计报告（PDF）", "实物作品与测试记录", "元器件清单"],
+          "material_note": "设计报告须包含方案论证、电路图、程序流程与测试数据；实物须现场测试；使用指定 TI 器件的赛题按题目要求执行。",
+          "status": "往届",
+          "source_ref": "全国大学生电子设计竞赛培训网 https://www.nuedc-training.com.cn（参考口径）",
+          "tracks": [
+            {"name": "控制类", "description": "运动控制、智能小车、无人机等题目。", "requirements": ["单片机", "控制算法", "电路设计"], "discipline_tags": ["嵌入式", "机器人"], "fee": 300},
+            {"name": "信号与仪器类", "description": "信号采集、测量仪器类题目。", "requirements": ["模拟电路", "FPGA", "信号处理"], "discipline_tags": ["电子设计"], "fee": 300},
+            {"name": "电源类", "description": "电力电子与电源设计类题目。", "requirements": ["电力电子", "电路设计"], "discipline_tags": ["电子设计"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "校内选拔", "stage": "校赛", "start_date": "2026-04-10", "end_date": "2026-05-10", "note": "学院组织选拔并确定参赛队。"},
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-06-15", "end_date": "2026-06-15", "note": "以省赛区通知为准。"},
+            {"name": "竞赛时间", "stage": "省赛", "start_date": "2026-08-05", "end_date": "2026-08-08", "note": "四天三夜封闭竞赛。"},
+            {"name": "测评与评奖", "stage": "省赛", "start_date": "2026-08-15", "end_date": "2026-08-30", "note": "现场测试后确定奖项。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "10%", "quantity": "", "prize": "省赛证书", "note": "省赛一等奖推荐参加全国评审。"},
+            {"award_level": "二等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "省赛证书", "note": ""},
+            {"award_level": "三等奖", "category": "省级", "ratio": "30%", "quantity": "", "prize": "省赛证书", "note": ""}
+          ]
+        },
+        {
+          "year": 2027,
+          "edition_name": "2027 年全国赛",
+          "notice_title": "关于组织参加 2027 年全国大学生电子设计竞赛的预通知",
+          "notice_no": "电赛组〔2026〕4号",
+          "issued_by": "全国大学生电子设计竞赛组委会",
+          "issued_date": "2026-09-15",
+          "register_start": "2027-04-01",
+          "register_end": "2027-06-15",
+          "competition_period": "预计 2027-08-04 至 2027-08-07",
+          "eligibility": "全日制在校本科生，三人一队；每队 1-2 名指导教师。",
+          "team_size_min": 3,
+          "team_size_max": 3,
+          "mentor_limit": 2,
+          "registration_fee": 300,
+          "fee_note": "报名费参考 300 元/队，以正式通知为准。",
+          "required_materials": ["参赛报名表", "设计报告", "实物作品", "元器件清单"],
+          "material_note": "设计报告与实物须一致；测试现场随机抽题问答。",
+          "status": "筹备中",
+          "source_ref": "全国大学生电子设计竞赛培训网（参考口径）",
+          "tracks": [
+            {"name": "控制类", "description": "运动控制类题目。", "requirements": ["单片机", "控制算法"], "discipline_tags": ["嵌入式", "机器人"], "fee": 300},
+            {"name": "信号与仪器类", "description": "信号采集与测量类题目。", "requirements": ["模拟电路", "信号处理"], "discipline_tags": ["电子设计"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "校内选拔与培训", "stage": "校赛", "start_date": "2027-03-10", "end_date": "2027-06-20", "note": "春季学期组织集训。"},
+            {"name": "竞赛时间", "stage": "国赛", "start_date": "2027-08-04", "end_date": "2027-08-07", "note": "预计时间，以正式通知为准。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "国家级", "ratio": "8%", "quantity": "", "prize": "全国一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "15%", "quantity": "", "prize": "全国二等奖证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "物联网工程", "fit_score": 0.94, "reason": "嵌入式与硬件开发能力直接对口控制类题目", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.72, "reason": "可承担软件与控制算法实现，需补硬件基础", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.7, "reason": "可参与控制算法与视觉识别部分", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "嵌入式", "fit_score": 0.95, "reason": "单片机与嵌入式系统是核心能力", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "电子设计", "fit_score": 0.95, "reason": "电路设计与调试能力直接应用", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "机器人", "fit_score": 0.85, "reason": "控制类题目与机器人方向相通", "recommended_grade": "", "difficulty": "高"}
+      ]
+    },
+    {
+      "code": "SMARTCAR",
+      "name": "全国大学生智能汽车竞赛",
+      "short_name": "智能汽车竞赛",
+      "organizer": "中国自动化学会",
+      "co_organizer": "各分赛区承办高校",
+      "level": "国家级",
+      "category": "智能机器人类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["嵌入式", "自动控制", "机器人"],
+      "official_url": "https://smartcarrace.com",
+      "intro": "以智能模型汽车为对象的工程实践赛事，参赛队需完成机械结构、电路设计、传感器与算法调试，在赛道上竞速。设摄像头、电磁、创意等多个组别，按分区赛、全国总决赛两级进行。",
+      "target_audience": "自动化、电子信息、物联网、计算机等专业本科生，3-5 人组队。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "第二十一届",
+          "notice_title": "第二十一届全国大学生智能汽车竞赛报名通知",
+          "notice_no": "智能车〔2025〕8号",
+          "issued_by": "全国大学生智能汽车竞赛组委会",
+          "issued_date": "2025-11-10",
+          "register_start": "2026-01-05",
+          "register_end": "2026-03-31",
+          "competition_period": "分区赛 2026-07，全国总决赛 2026-08",
+          "eligibility": "全日制在校本科生，每队 3-5 人，指导教师 1-2 名；参赛车模与核心器件须符合竞赛规范。",
+          "team_size_min": 3,
+          "team_size_max": 5,
+          "mentor_limit": 2,
+          "registration_fee": 300,
+          "fee_note": "报名费 300 元/队；车模、赛道与元器件费用由学院竞赛经费支持。",
+          "required_materials": ["报名表", "车模技术检查表", "设计说明书", "现场技术答辩材料"],
+          "material_note": "赛前须通过车模技术检查；设计说明书需涵盖机械、电路、算法三部分；现场答辩随机抽问。",
+          "status": "往届",
+          "source_ref": "智能车竞赛官网 https://smartcarrace.com（参考口径）",
+          "tracks": [
+            {"name": "摄像头组", "description": "基于摄像头的循迹竞速。", "requirements": ["图像处理", "控制算法", "嵌入式"], "discipline_tags": ["嵌入式", "机器人"], "fee": 300},
+            {"name": "电磁组", "description": "基于电磁传感器的循迹竞速。", "requirements": ["信号采集", "控制算法"], "discipline_tags": ["电子设计", "嵌入式"], "fee": 300},
+            {"name": "创意组", "description": "智能车创意应用设计。", "requirements": ["创意方案", "作品演示"], "discipline_tags": ["机器人", "AI"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-03-31", "end_date": "2026-03-31", "note": "以官网通知为准。"},
+            {"name": "分区赛", "stage": "省赛", "start_date": "2026-07-10", "end_date": "2026-07-25", "note": "各分赛区比赛。"},
+            {"name": "全国总决赛", "stage": "国赛", "start_date": "2026-08-15", "end_date": "2026-08-20", "note": "分区赛优胜队参加。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "15%", "quantity": "", "prize": "赛区一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "赛区二等奖证书", "note": ""},
+            {"award_level": "三等奖", "category": "省级", "ratio": "25%", "quantity": "", "prize": "赛区三等奖证书", "note": ""},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "10%", "quantity": "", "prize": "全国一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "20%", "quantity": "", "prize": "全国二等奖证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "物联网工程", "fit_score": 0.92, "reason": "嵌入式开发与传感器调试是核心能力", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.85, "reason": "摄像头组需要视觉与算法能力", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.78, "reason": "算法实现与嵌入式编程可发挥", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "嵌入式", "fit_score": 0.95, "reason": "车模控制与传感器开发直接对应", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "机器人", "fit_score": 0.88, "reason": "自动控制与感知决策能力适配", "recommended_grade": "", "difficulty": "高"}
+      ]
+    },
+    {
+      "code": "CISCN",
+      "name": "全国大学生信息安全竞赛",
+      "short_name": "信息安全竞赛",
+      "organizer": "教育部高等学校网络空间安全专业教学指导委员会",
+      "co_organizer": "中国科学技术大学等承办高校",
+      "level": "国家级",
+      "category": "信息安全类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["网络安全", "信息安全", "密码学"],
+      "official_url": "http://www.ciscn.cn",
+      "intro": "面向高校学生的信息安全赛事，设作品赛与创新实践能力赛（CTF）。作品赛提交安全作品与设计报告，创新实践赛以攻防对抗形式进行，是国内网络空间安全领域的重要赛事。",
+      "target_audience": "网络空间安全、计算机、软件工程等相关专业本科生。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "2026 年作品赛",
+          "notice_title": "2026 年全国大学生信息安全竞赛作品赛通知",
+          "notice_no": "信安竞〔2026〕1号",
+          "issued_by": "全国大学生信息安全竞赛组委会",
+          "issued_date": "2026-02-10",
+          "register_start": "2026-03-01",
+          "register_end": "2026-04-30",
+          "competition_period": "作品提交 2026-05 至 06，决赛 2026-08",
+          "eligibility": "全日制在校本科生，每队 1-4 人，指导教师 1-2 名；每校推荐队数按通知限额。",
+          "team_size_min": 1,
+          "team_size_max": 4,
+          "mentor_limit": 2,
+          "registration_fee": 0,
+          "fee_note": "不收取报名费；决赛差旅由学院按竞赛经费规定支持。",
+          "required_materials": ["报名表", "作品设计报告", "作品源码与部署说明", "演示视频", "原创性声明"],
+          "material_note": "作品不得包含任何真实系统攻击代码；设计报告须说明威胁模型与防御效果；源码需可复现。",
+          "status": "往届",
+          "source_ref": "全国大学生信息安全竞赛官网 http://www.ciscn.cn（参考口径）",
+          "tracks": [
+            {"name": "作品赛", "description": "安全作品设计与实现。", "requirements": ["安全方案", "代码实现", "设计报告"], "discipline_tags": ["网络安全"], "fee": 0},
+            {"name": "创新实践能力赛", "description": "CTF 攻防对抗。", "requirements": ["Web 安全", "逆向", "密码学"], "discipline_tags": ["网络安全", "CTF"], "fee": 0}
+          ],
+          "milestones": [
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-04-30", "end_date": "2026-04-30", "note": "校内推荐后统一报名。"},
+            {"name": "作品提交", "stage": "提交", "start_date": "2026-06-10", "end_date": "2026-06-20", "note": "提交报告与源码。"},
+            {"name": "全国决赛", "stage": "国赛", "start_date": "2026-08-10", "end_date": "2026-08-15", "note": "现场答辩与演示。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "国家级", "ratio": "10%", "quantity": "", "prize": "全国一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "20%", "quantity": "", "prize": "全国二等奖证书", "note": ""},
+            {"award_level": "三等奖", "category": "国家级", "ratio": "30%", "quantity": "", "prize": "全国三等奖证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "网络工程", "fit_score": 0.96, "reason": "网络与信息安全方向直接对口", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.85, "reason": "系统安全与逆向方向可参赛", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.78, "reason": "可参与安全开发与代码审计类作品", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "网络安全", "fit_score": 0.98, "reason": "赛事核心方向", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "后端开发", "fit_score": 0.7, "reason": "Web 安全方向需要后端基础", "recommended_grade": "", "difficulty": "中"}
+      ]
+    },
+    {
+      "code": "CSSC",
+      "name": "全国大学生市场调查与分析大赛",
+      "short_name": "市场调查大赛",
+      "organizer": "中国商业统计学会",
+      "co_organizer": "各省级赛区组委会",
+      "level": "国家级",
+      "category": "数学建模类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["数据分析", "市场调研", "统计建模"],
+      "official_url": "http://www.china-cssc.org",
+      "intro": "面向高校学生的市场调查与分析赛事，参赛队围绕真实社会与商业问题完成问卷设计、数据采集、统计分析与报告撰写，按校赛、省赛、国赛三级选拔。",
+      "target_audience": "统计、数据科学、经管及计算机类本科生，3-5 人组队。",
+      "editions": [
+        {
+          "year": 2027,
+          "edition_name": "第十七届",
+          "notice_title": "关于举办第十七届全国大学生市场调查与分析大赛的通知",
+          "notice_no": "市调赛组〔2026〕1号",
+          "issued_by": "中国商业统计学会",
+          "issued_date": "2026-09-28",
+          "register_start": "2026-10-10",
+          "register_end": "2026-11-15",
+          "competition_period": "校赛 2027-03，省赛 2027-04，全国总决赛 2027-05",
+          "eligibility": "全日制在校本科生，3-5 人组队，可跨专业；每队 1-2 名指导教师；报名后需参加统一组织的在线知识测试。",
+          "team_size_min": 3,
+          "team_size_max": 5,
+          "mentor_limit": 2,
+          "registration_fee": 100,
+          "fee_note": "报名费 100 元/人（含在线测试费），由学校统一收取。",
+          "required_materials": ["报名表", "调查报告（PDF）", "数据分析代码与数据说明", "答辩 PPT"],
+          "material_note": "调查报告须包含抽样方案、数据来源与统计方法；问卷与原始数据须留档备查；报告建议 1.5 万字以内。",
+          "status": "进行中",
+          "source_ref": "中国商业统计学会官网 http://www.china-cssc.org（参考口径）",
+          "tracks": [
+            {"name": "本科组", "description": "市场调查与分析报告赛道。", "requirements": ["问卷设计", "统计建模", "报告写作"], "discipline_tags": ["数据分析", "数学建模"], "fee": 100}
+          ],
+          "milestones": [
+            {"name": "报名开始", "stage": "报名", "start_date": "2026-10-10", "end_date": "2026-10-10", "note": "大赛官网报名。"},
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-11-15", "end_date": "2026-11-15", "note": "逾期不再受理。"},
+            {"name": "校赛", "stage": "校赛", "start_date": "2027-03-10", "end_date": "2027-03-20", "note": "校赛选拔推荐省赛。"},
+            {"name": "省赛", "stage": "省赛", "start_date": "2027-04-10", "end_date": "2027-04-25", "note": "省赛一等奖推荐国赛。"},
+            {"name": "全国总决赛", "stage": "国赛", "start_date": "2027-05-15", "end_date": "2027-05-25", "note": "现场答辩。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "省级", "ratio": "10%", "quantity": "", "prize": "省赛证书", "note": "推荐参加国赛。"},
+            {"award_level": "二等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "省赛证书", "note": ""},
+            {"award_level": "三等奖", "category": "省级", "ratio": "30%", "quantity": "", "prize": "省赛证书", "note": ""},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "8%", "quantity": "", "prize": "全国一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "15%", "quantity": "", "prize": "全国二等奖证书", "note": ""},
+            {"award_level": "三等奖", "category": "国家级", "ratio": "25%", "quantity": "", "prize": "全国三等奖证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "数据科学与大数据技术", "fit_score": 0.95, "reason": "统计分析与数据建模是赛事核心", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.8, "reason": "可承担数据建模与结果解释", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.76, "reason": "可负责数据采集与可视化实现", "recommended_grade": "大二及以上", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "数据分析", "fit_score": 0.95, "reason": "数据分析能力直接应用", "recommended_grade": "", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "数学建模", "fit_score": 0.85, "reason": "建模方法适用于调查数据建模", "recommended_grade": "", "difficulty": "中"}
+      ]
+    },
+    {
+      "code": "ROBOMASTER",
+      "name": "全国大学生机器人大赛 RoboMaster 机甲大师赛",
+      "short_name": "RoboMaster",
+      "organizer": "中国大学生机器人大赛组委会、深圳市大疆创新科技有限公司",
+      "co_organizer": "各分赛区承办单位",
+      "level": "国家级",
+      "category": "智能机器人类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["机器人", "嵌入式", "机器视觉"],
+      "official_url": "https://www.robomaster.com",
+      "intro": "以机器人对抗为形式的工程实践赛事，参赛队需自主研发步兵、英雄、工程等机器人，完成机械设计、电控开发、视觉识别与算法策略，按分区赛、全国赛两级进行。",
+      "target_audience": "机械、电子、自动化、计算机等专业本科生，跨专业组队，队规模 10-20 人。",
+      "editions": [
+        {
+          "year": 2027,
+          "edition_name": "2027 赛季",
+          "notice_title": "2027 赛季 RoboMaster 机甲大师赛参赛报名通知",
+          "notice_no": "RM〔2026〕7号",
+          "issued_by": "RoboMaster 组委会",
+          "issued_date": "2026-09-25",
+          "register_start": "2026-10-15",
+          "register_end": "2026-12-15",
+          "competition_period": "分区赛 2027-05 至 06，全国赛 2027-07 至 08",
+          "eligibility": "全日制在校本科生、研究生，以学校为单位组队；每队需配备 1-3 名指导教师；需通过组委会技术评估。",
+          "team_size_min": 10,
+          "team_size_max": 20,
+          "mentor_limit": 3,
+          "registration_fee": 2000,
+          "fee_note": "报名费 2000 元/队（含赛事服务），机器人研发与耗材费用较高，需提前编制专项预算。",
+          "required_materials": ["参赛报名表", "机器人技术方案", "机械与电控设计文档", "成本清单", "安全承诺书"],
+          "material_note": "需提交完整技术方案与成本清单；赛前完成技术检查；机器人须符合赛事安全规范。",
+          "status": "进行中",
+          "source_ref": "RoboMaster 官网 https://www.robomaster.com（参考口径）",
+          "tracks": [
+            {"name": "机甲大师超级对抗赛", "description": "多兵种机器人团队对抗。", "requirements": ["机械设计", "电控", "视觉算法"], "discipline_tags": ["机器人", "嵌入式"], "fee": 2000},
+            {"name": "机甲大师高校联盟赛", "description": "区域高校联盟赛事。", "requirements": ["机器人设计", "团队协作"], "discipline_tags": ["机器人"], "fee": 1000}
+          ],
+          "milestones": [
+            {"name": "报名开始", "stage": "报名", "start_date": "2026-10-15", "end_date": "2026-10-15", "note": "官网提交队伍信息。"},
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-12-15", "end_date": "2026-12-15", "note": "逾期不再受理。"},
+            {"name": "分区赛", "stage": "省赛", "start_date": "2027-05-15", "end_date": "2027-06-15", "note": "各赛区比赛。"},
+            {"name": "全国赛", "stage": "国赛", "start_date": "2027-07-20", "end_date": "2027-08-10", "note": "分区赛晋级队伍参加。"}
+          ],
+          "award_settings": [
+            {"award_level": "特等奖", "category": "国家级", "ratio": "5%", "quantity": "", "prize": "全国总冠军奖杯 + 奖金", "note": "全国赛冠军。"},
+            {"award_level": "一等奖", "category": "国家级", "ratio": "15%", "quantity": "", "prize": "全国一等奖证书", "note": "全国赛八强等。"},
+            {"award_level": "二等奖", "category": "国家级", "ratio": "25%", "quantity": "", "prize": "全国二等奖证书", "note": ""},
+            {"award_level": "三等奖", "category": "省级", "ratio": "30%", "quantity": "", "prize": "分区赛证书", "note": "分区赛奖项。"}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "物联网工程", "fit_score": 0.9, "reason": "嵌入式与硬件开发能力适配电控方向", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.88, "reason": "视觉识别与决策算法是核心模块", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.85, "reason": "视觉算法与软件开发需求大", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.78, "reason": "可负责上位机与视觉软件", "recommended_grade": "大二及以上", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "机器人", "fit_score": 0.95, "reason": "赛事核心方向", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "嵌入式", "fit_score": 0.9, "reason": "电控开发直接对应", "recommended_grade": "", "difficulty": "高"},
+        {"match_type": "tech_tag", "match_value": "机器学习", "fit_score": 0.8, "reason": "视觉识别需要深度学习能力", "recommended_grade": "", "difficulty": "高"}
+      ]
+    },
+    {
+      "code": "PROV-ACMICPC",
+      "name": "省大学生程序设计竞赛",
+      "short_name": "省程序设计竞赛",
+      "organizer": "省教育厅、省计算机学会",
+      "co_organizer": "省内承办高校",
+      "level": "省级",
+      "category": "程序设计与算法类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["算法竞赛", "程序设计"],
+      "official_url": "",
+      "intro": "省级大学生程序设计赛事，三人一队、五小时上机，赛制参照 ICPC，是国赛前的重要练兵与选拔赛事。",
+      "target_audience": "省内高校计算机相关专业本科生。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "2026 年竞赛",
+          "notice_title": "关于举办 2026 年省大学生程序设计竞赛的通知",
+          "notice_no": "省计赛〔2026〕2号",
+          "issued_by": "省大学生程序设计竞赛组委会",
+          "issued_date": "2026-09-05",
+          "register_start": "2026-09-20",
+          "register_end": "2026-10-25",
+          "competition_period": "2026-11-08（5 小时现场赛）",
+          "eligibility": "省内高校全日制在校本科生，三人一队，每队 1 名教练；每校参赛队数限 5 队。",
+          "team_size_min": 3,
+          "team_size_max": 3,
+          "mentor_limit": 1,
+          "registration_fee": 300,
+          "fee_note": "报名费 300 元/队，含赛务与午餐。",
+          "required_materials": ["报名表", "队员学生证信息", "教练确认函"],
+          "material_note": "报名截止后不得更换队员；现场须携带学生证。",
+          "status": "进行中",
+          "source_ref": "省计算机学会通知（参考口径）",
+          "tracks": [
+            {"name": "正式赛", "description": "ICPC 赛制现场赛。", "requirements": ["算法与数据结构", "C++/Java/Python"], "discipline_tags": ["算法竞赛"], "fee": 300}
+          ],
+          "milestones": [
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-10-25", "end_date": "2026-10-25", "note": "校内选拔后统一报名。"},
+            {"name": "现场赛", "stage": "省级", "start_date": "2026-11-08", "end_date": "2026-11-08", "note": "5 小时现场赛。"}
+          ],
+          "award_settings": [
+            {"award_level": "特等奖", "category": "省级", "ratio": "5%", "quantity": "", "prize": "冠军奖杯", "note": "冠军队伍。"},
+            {"award_level": "一等奖", "category": "省级", "ratio": "10%", "quantity": "", "prize": "省一等奖证书", "note": ""},
+            {"award_level": "二等奖", "category": "省级", "ratio": "20%", "quantity": "", "prize": "省二等奖证书", "note": ""},
+            {"award_level": "三等奖", "category": "省级", "ratio": "30%", "quantity": "", "prize": "省三等奖证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.95, "reason": "算法竞赛能力直接检验", "recommended_grade": "大一及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.85, "reason": "编程基础扎实即可参赛", "recommended_grade": "大一及以上", "difficulty": "中"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.8, "reason": "算法方向学生适合参加", "recommended_grade": "大一及以上", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "算法竞赛", "fit_score": 0.95, "reason": "赛事核心方向", "recommended_grade": "", "difficulty": "中"},
+        {"match_type": "tech_tag", "match_value": "编程", "fit_score": 0.85, "reason": "团队编程实战", "recommended_grade": "", "difficulty": "中"}
+      ]
+    },
+    {
+      "code": "SCHOOL-PROG",
+      "name": "校级程序设计竞赛",
+      "short_name": "校程序设计竞赛",
+      "organizer": "计算与智能技术学院",
+      "co_organizer": "学院大学生创新创业中心",
+      "level": "校级",
+      "category": "程序设计与算法类",
+      "competition_type": "学科竞赛",
+      "discipline_tags": ["算法竞赛", "程序设计"],
+      "official_url": "",
+      "intro": "学院面向全校学生举办的程序设计入门赛事，个人赛。成绩作为省赛、蓝桥杯等赛事的校内选拔依据，适合零基础学生第一次参赛。",
+      "target_audience": "全校理工科本科生，尤其适合大一新生。",
+      "editions": [
+        {
+          "year": 2026,
+          "edition_name": "2026 年校赛",
+          "notice_title": "关于举办 2026 年校级程序设计竞赛的通知",
+          "notice_no": "智院教〔2026〕12号",
+          "issued_by": "计算与智能技术学院",
+          "issued_date": "2026-09-22",
+          "register_start": "2026-09-25",
+          "register_end": "2026-10-22",
+          "competition_period": "2026-10-30 18:30 至 21:30",
+          "eligibility": "全校在籍本科生均可报名，个人赛，不限专业与年级；比赛使用在线评测系统。",
+          "team_size_min": 1,
+          "team_size_max": 1,
+          "mentor_limit": 0,
+          "registration_fee": 0,
+          "fee_note": "不收取报名费，由学院竞赛经费统一保障。",
+          "required_materials": ["在线报名信息"],
+          "material_note": "比赛当日凭学生证入场；可携带纸质资料，不得使用联网设备。",
+          "status": "进行中",
+          "source_ref": "学院教学通知（参考口径）",
+          "tracks": [
+            {"name": "个人赛", "description": "在线评测，3 小时 6-8 题。", "requirements": ["C/C++/Java/Python 任选"], "discipline_tags": ["算法竞赛", "编程"], "fee": 0}
+          ],
+          "milestones": [
+            {"name": "报名截止", "stage": "报名", "start_date": "2026-10-22", "end_date": "2026-10-22", "note": "线上报名。"},
+            {"name": "比赛", "stage": "校级", "start_date": "2026-10-30", "end_date": "2026-10-30", "note": "机房现场赛。"},
+            {"name": "颁奖与集训队选拔", "stage": "校级", "start_date": "2026-11-06", "end_date": "2026-11-06", "note": "优秀选手进入学院集训队。"}
+          ],
+          "award_settings": [
+            {"award_level": "一等奖", "category": "校级", "ratio": "10%", "quantity": "", "prize": "校赛证书 + 奖品", "note": "进入学院集训队。"},
+            {"award_level": "二等奖", "category": "校级", "ratio": "20%", "quantity": "", "prize": "校赛证书", "note": ""},
+            {"award_level": "三等奖", "category": "校级", "ratio": "30%", "quantity": "", "prize": "校赛证书", "note": ""}
+          ]
+        }
+      ],
+      "fits": [
+        {"match_type": "major", "match_value": "计算机科学与技术", "fit_score": 0.9, "reason": "专业核心能力入门检验", "recommended_grade": "大一及以上", "difficulty": "入门"},
+        {"match_type": "major", "match_value": "软件工程", "fit_score": 0.85, "reason": "编程基础训练", "recommended_grade": "大一及以上", "difficulty": "入门"},
+        {"match_type": "major", "match_value": "人工智能", "fit_score": 0.8, "reason": "算法能力基础训练", "recommended_grade": "大一及以上", "difficulty": "入门"},
+        {"match_type": "major", "match_value": "数据科学与大数据技术", "fit_score": 0.78, "reason": "编程基础训练", "recommended_grade": "大一及以上", "difficulty": "入门"},
+        {"match_type": "major", "match_value": "物联网工程", "fit_score": 0.72, "reason": "嵌入式方向同样需要编程基础", "recommended_grade": "大一及以上", "difficulty": "入门"},
+        {"match_type": "major", "match_value": "网络工程", "fit_score": 0.72, "reason": "编程基础训练", "recommended_grade": "大一及以上", "difficulty": "入门"},
+        {"match_type": "tech_tag", "match_value": "算法竞赛", "fit_score": 0.9, "reason": "零基础友好，适合作为第一场正式比赛", "recommended_grade": "", "difficulty": "入门"},
+        {"match_type": "tech_tag", "match_value": "编程", "fit_score": 0.85, "reason": "个人赛检验基本功", "recommended_grade": "", "difficulty": "入门"}
+      ]
+    }
+  ]
+}

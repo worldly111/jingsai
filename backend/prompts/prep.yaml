@@ -1,0 +1,50 @@
+agent: prep
+name: 备赛辅助
+description: 汇总比赛要求，生成分阶段备赛计划、任务清单与材料准备建议。
+answer_rules:
+  - 时间节点、材料清单、组队与费用要求必须来自赛事台账与知识库中的规程原文。
+  - 计划要倒排到具体日期，标注每个阶段的起止与交付物。
+  - 不确定的时间节点要明确标注"以当年正式通知为准"。
+
+nodes:
+  - id: resolve_event
+    title: 确定赛事与目标日期
+    desc: 从用户输入中定位赛事，读取届次信息、时间节点、组队规则与报名费。
+
+  - id: build_plan
+    title: 倒排备赛计划
+    desc: 依据目标日期与 prep_stages 模板生成分阶段时间线与任务清单，模板可在规则文件中调整。
+
+  - id: retrieve_materials
+    title: 汇总材料要求
+    desc: 从知识库检索该赛事的材料清单、格式要求与提交规范。
+
+  - id: synthesize
+    title: 输出备赛方案
+    desc: 生成完整的备赛计划说明、任务清单与材料准备建议。
+    system: |
+      你是学科竞赛备赛教练，帮助学生把比赛要求拆解为可执行的计划。
+      规则：
+      {answer_rules}
+    user: |
+      【学生情况】
+      {profile}
+
+      【赛事信息与倒排计划】
+      {structured}
+
+      【规程原文片段】
+      {evidence}
+
+      【输出要求】
+      1. 先用一句话概括备赛目标与剩余时间。
+      2. 用表格输出阶段计划：阶段、起止日期、关键任务、交付物。
+      3. 单独列出"材料准备清单"，逐项说明准备要求与常见退回原因。
+      4. 给出 3 条容易被忽略但会影响成绩的提醒（如匿名要求、格式、提交回执）。
+      5. 结尾列出参考资料出处。
+
+edges:
+  - {from: START, to: resolve_event}
+  - {from: resolve_event, to: build_plan}
+  - {from: build_plan, to: retrieve_materials}
+  - {from: retrieve_materials, to: synthesize}

@@ -1,0 +1,321 @@
+# ============================================================
+#  竞赛认定目录（赛事级别 / 类别）
+#  ------------------------------------------------------------
+#  用于新增赛事时快速认定级别与类别，并作为台账维护的参考目录。
+#  学校竞赛认定目录每年可能调整，本表仅为参考口径，最终以学校当年
+#  发布的《学科竞赛认定目录》为准。
+#  competition_name_pattern 支持模糊匹配（新增赛事时按名称套用）。
+# ============================================================
+
+rules:
+  # ---------- 综合创新类 ----------
+  - competition_name_pattern: 中国国际大学生创新大赛
+    level: 国家级
+    category: 综合创新类
+    score: 100
+    note: 原“互联网+”大学生创新创业大赛，学校认定最高级别赛事
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 互联网+
+    level: 国家级
+    category: 综合创新类
+    score: 100
+    note: 中国国际大学生创新大赛的旧称
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 挑战杯
+    level: 国家级
+    category: 综合创新类
+    score: 100
+    note: 全国大学生课外学术科技作品竞赛 / 创业计划竞赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 大学生创新创业训练计划
+    level: 国家级
+    category: 综合创新类
+    score: 80
+    note: 大创项目，按项目立项与结题认定
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 程序设计与算法类 ----------
+  - competition_name_pattern: ACM-ICPC
+    level: 国家级
+    category: 程序设计与算法类
+    score: 100
+    note: 国际大学生程序设计竞赛亚洲区域赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: CCPC
+    level: 国家级
+    category: 程序设计与算法类
+    score: 95
+    note: 中国大学生程序设计竞赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 蓝桥杯
+    level: 国家级
+    category: 程序设计与算法类
+    score: 90
+    note: 全国软件和信息技术专业人才大赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 团体程序设计天梯赛
+    level: 国家级
+    category: 程序设计与算法类
+    score: 85
+    note: 中国高校计算机大赛赛道之一
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 中国大学生计算机设计大赛
+    level: 国家级
+    category: 程序设计与算法类
+    score: 90
+    note: 含软件应用与开发、数媒设计等赛道
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 百度之星
+    level: 国家级
+    category: 程序设计与算法类
+    score: 70
+    note: 企业主办的全国性程序设计竞赛
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 数学与统计类 ----------
+  - competition_name_pattern: 全国大学生数学建模竞赛
+    level: 国家级
+    category: 数学建模类
+    score: 100
+    note: 三人一队，含国赛与省赛两个阶段
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 美国大学生数学建模竞赛
+    level: 国家级
+    category: 数学建模类
+    score: 85
+    note: MCM/ICM，国际赛事
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 全国大学生统计建模大赛
+    level: 国家级
+    category: 数学建模类
+    score: 80
+    note: 统计建模与数据分析方向
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 全国大学生数学竞赛
+    level: 国家级
+    category: 学科基础类
+    score: 80
+    note: 数学基础学科竞赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 全国大学生市场调查与分析大赛
+    level: 国家级
+    category: 数学建模类
+    score: 75
+    note: 市场调研与数据分析
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 电子电气与嵌入式类 ----------
+  - competition_name_pattern: 全国大学生电子设计竞赛
+    level: 国家级
+    category: 电子电气类
+    score: 100
+    note: 奇数年国赛、偶数年省赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 全国大学生智能汽车竞赛
+    level: 国家级
+    category: 电子电气类
+    score: 95
+    note: 智能车竞速与创意赛道
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 嵌入式芯片与系统设计竞赛
+    level: 国家级
+    category: 电子电气类
+    score: 85
+    note: 中国电子学会主办
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 集成电路创新创业大赛
+    level: 国家级
+    category: 电子电气类
+    score: 85
+    note: 集成电路设计方向
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 全国大学生物联网设计竞赛
+    level: 国家级
+    category: 电子电气类
+    score: 80
+    note: 物联网系统设计
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 中国大学生工程实践与创新能力大赛
+    level: 国家级
+    category: 电子电气类
+    score: 85
+    note: 工程训练综合能力竞赛
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 机器人与智能制造类 ----------
+  - competition_name_pattern: RoboMaster
+    level: 国家级
+    category: 智能机器人类
+    score: 100
+    note: 全国大学生机器人大赛机甲大师赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 中国机器人大赛
+    level: 国家级
+    category: 智能机器人类
+    score: 85
+    note: RoboCup 机器人世界杯中国赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 睿抗机器人开发者大赛
+    level: 国家级
+    category: 智能机器人类
+    score: 80
+    note: RAICOM
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 全国三维数字化创新设计大赛
+    level: 国家级
+    category: 智能机器人类
+    score: 75
+    note: 3D 数字化设计与制造
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 信息安全类 ----------
+  - competition_name_pattern: 全国大学生信息安全竞赛
+    level: 国家级
+    category: 信息安全类
+    score: 95
+    note: 作品赛与创新实践能力赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: CTF
+    level: 国家级
+    category: 信息安全类
+    score: 80
+    note: 网络安全夺旗赛
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 大数据与人工智能类 ----------
+  - competition_name_pattern: 中国高校计算机大赛-大数据挑战赛
+    level: 国家级
+    category: 大数据与人工智能类
+    score: 90
+    note: 中国高校计算机大赛赛道
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 华为ICT大赛
+    level: 国家级
+    category: 大数据与人工智能类
+    score: 75
+    note: 企业主办的 ICT 技术竞赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 服务外包创新创业大赛
+    level: 国家级
+    category: 大数据与人工智能类
+    score: 80
+    note: 中国大学生服务外包创新创业大赛
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 经管类 ----------
+  - competition_name_pattern: 学创杯
+    level: 国家级
+    category: 经管类
+    score: 80
+    note: 全国大学生创业综合模拟大赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 商业精英挑战赛
+    level: 国家级
+    category: 经管类
+    score: 75
+    note: 全国高校商业精英挑战赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 尖烽时刻
+    level: 国家级
+    category: 经管类
+    score: 70
+    note: 国际商业模拟大赛中国区
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 外语类 ----------
+  - competition_name_pattern: 外研社
+    level: 国家级
+    category: 外语类
+    score: 80
+    note: “外研社·国才杯”英语演讲 / 写作 / 阅读大赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 全国大学生英语竞赛
+    level: 国家级
+    category: 外语类
+    score: 70
+    note: NECCS
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 设计传媒类 ----------
+  - competition_name_pattern: 全国大学生广告艺术大赛
+    level: 国家级
+    category: 设计传媒类
+    score: 85
+    note: 大广赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 中国好创意
+    level: 国家级
+    category: 设计传媒类
+    score: 75
+    note: 中国好创意暨全国数字艺术设计大赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 米兰设计周
+    level: 国家级
+    category: 设计传媒类
+    score: 75
+    note: 中国高校设计学科师生优秀作品展
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 工业设计大赛
+    level: 国家级
+    category: 设计传媒类
+    score: 80
+    note: 全国大学生工业设计大赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 数字媒体科技作品
+    level: 国家级
+    category: 设计传媒类
+    score: 75
+    note: 全国大学生数字媒体科技作品及创意竞赛
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 省级赛事 ----------
+  - competition_name_pattern: 省大学生程序设计竞赛
+    level: 省级
+    category: 程序设计与算法类
+    score: 60
+    note: 省级程序设计赛事
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 华北五省
+    level: 省级
+    category: 智能机器人类
+    score: 55
+    note: 华北五省（市、自治区）大学生机器人大赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 省大学生电子设计竞赛
+    level: 省级
+    category: 电子电气类
+    score: 60
+    note: 偶数年省赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 省大学生数学建模竞赛
+    level: 省级
+    category: 数学建模类
+    score: 60
+    note: 国赛前的省级选拔
+    source: 学校学科竞赛认定目录（参考）
+
+  # ---------- 校级赛事 ----------
+  - competition_name_pattern: 校级程序设计竞赛
+    level: 校级
+    category: 程序设计与算法类
+    score: 30
+    note: 校内选拔赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 校级数学建模竞赛
+    level: 校级
+    category: 数学建模类
+    score: 30
+    note: 校内选拔赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 校级电子设计竞赛
+    level: 校级
+    category: 电子电气类
+    score: 30
+    note: 校内选拔赛
+    source: 学校学科竞赛认定目录（参考）
+  - competition_name_pattern: 校级创新创业大赛
+    level: 校级
+    category: 综合创新类
+    score: 30
+    note: 校内选拔赛
+    source: 学校学科竞赛认定目录（参考）

@@ -1,0 +1,4300 @@
+{
+  "_note": "学院竞赛台账演示数据（2022–2027）。参赛、获奖、成员及指导教师均为示例，用于验证统计、推荐与导出流程；正式使用时请以学院实际台账替换。",
+  "registrations": [
+    {
+      "code": "REG-2022-SCHOOL-01",
+      "competition_code": "SCHOOL-PROG",
+      "year": 2022,
+      "track_name": "个人赛",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2022-11-01",
+      "finish_date": "2022-12-05",
+      "stage_reached": "校赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "陈子涵",
+      "mentor_names": "",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [],
+      "awards": [
+        {
+          "award_year": 2022,
+          "award_level": "一等奖",
+          "award_grade": "校级",
+          "project_title": "",
+          "team_name": "",
+          "students": "陈子涵",
+          "majors": "计算机科学与技术",
+          "mentors": "",
+          "issuing_body": "计算与智能技术学院",
+          "certificate_no": "CERT-2022-SCHOOL-PROG-01",
+          "award_date": "2022-12-05",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2022-SCHOOL-02",
+      "competition_code": "SCHOOL-PROG",
+      "year": 2022,
+      "track_name": "个人赛",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2022-11-01",
+      "finish_date": "2022-12-05",
+      "stage_reached": "校赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "林子轩",
+      "mentor_names": "",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010102",
+          "student_name": "林子轩",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [],
+      "awards": [
+        {
+          "award_year": 2022,
+          "award_level": "二等奖",
+          "award_grade": "校级",
+          "project_title": "",
+          "team_name": "",
+          "students": "林子轩",
+          "majors": "计算机科学与技术",
+          "mentors": "",
+          "issuing_body": "计算与智能技术学院",
+          "certificate_no": "CERT-2022-SCHOOL-PROG-02",
+          "award_date": "2022-12-05",
+          "points": 1.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2022-SCHOOL-03",
+      "competition_code": "SCHOOL-PROG",
+      "year": 2022,
+      "track_name": "个人赛",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2022-11-01",
+      "finish_date": "2022-12-05",
+      "stage_reached": "校赛",
+      "lead_major": "人工智能",
+      "leader_name": "吴思远",
+      "mentor_names": "",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022030101",
+          "student_name": "吴思远",
+          "major_name": "人工智能",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [],
+      "awards": [
+        {
+          "award_year": 2022,
+          "award_level": "三等奖",
+          "award_grade": "校级",
+          "project_title": "",
+          "team_name": "",
+          "students": "吴思远",
+          "majors": "人工智能",
+          "mentors": "",
+          "issuing_body": "计算与智能技术学院",
+          "certificate_no": "CERT-2022-SCHOOL-PROG-03",
+          "award_date": "2022-12-05",
+          "points": 0.5,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2022-SCHOOL-04",
+      "competition_code": "SCHOOL-PROG",
+      "year": 2022,
+      "track_name": "个人赛",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2022-11-01",
+      "finish_date": "2022-12-05",
+      "stage_reached": "校赛",
+      "lead_major": "软件工程",
+      "leader_name": "赵雨欣",
+      "mentor_names": "",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022020101",
+          "student_name": "赵雨欣",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [],
+      "awards": [
+        {
+          "award_year": 2022,
+          "award_level": "三等奖",
+          "award_grade": "校级",
+          "project_title": "",
+          "team_name": "",
+          "students": "赵雨欣",
+          "majors": "软件工程",
+          "mentors": "",
+          "issuing_body": "计算与智能技术学院",
+          "certificate_no": "CERT-2022-SCHOOL-PROG-04",
+          "award_date": "2022-12-05",
+          "points": 0.5,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-LANQIAO-01",
+      "competition_code": "LANQIAO",
+      "year": 2023,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2023-01-06",
+      "finish_date": "2023-06-10",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "林子轩",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010102",
+          "student_name": "林子轩",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "",
+          "students": "林子轩",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心",
+          "certificate_no": "CERT-2023-LANQIAO-01",
+          "award_date": "2023-06-10",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-LANQIAO-02",
+      "competition_code": "LANQIAO",
+      "year": 2023,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2023-01-06",
+      "finish_date": "2023-06-10",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "陈子涵",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "陈子涵",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2023-LANQIAO-02",
+          "award_date": "2023-04-08",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-LANQIAO-03",
+      "competition_code": "LANQIAO",
+      "year": 2023,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2023-01-06",
+      "finish_date": "2023-04-08",
+      "stage_reached": "省赛",
+      "lead_major": "人工智能",
+      "leader_name": "吴思远",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022030101",
+          "student_name": "吴思远",
+          "major_name": "人工智能",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "吴思远",
+          "majors": "人工智能",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2023-LANQIAO-03",
+          "award_date": "2023-04-08",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-LANQIAO-04",
+      "competition_code": "LANQIAO",
+      "year": 2023,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2023-01-06",
+      "finish_date": "2023-04-08",
+      "stage_reached": "省赛",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "黄雅琪",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022040101",
+          "student_name": "黄雅琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "三等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "黄雅琪",
+          "majors": "数据科学与大数据技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2023-LANQIAO-04",
+          "award_date": "2023-04-08",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-LANQIAO-05",
+      "competition_code": "LANQIAO",
+      "year": 2023,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2023-01-06",
+      "finish_date": "2023-04-08",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "周嘉豪",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022020102",
+          "student_name": "周嘉豪",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2023-CUMCM-01",
+      "competition_code": "CUMCM",
+      "year": 2023,
+      "track_name": "本科组",
+      "team_name": "数模一队",
+      "project_title": "城市共享单车潮汐调度优化模型",
+      "project_brief": "基于时空聚类与整数规划的单车调度方案，兼顾调度成本与用户满意度。",
+      "status": "获奖",
+      "register_date": "2023-07-01",
+      "finish_date": "2023-09-24",
+      "stage_reached": "国赛",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "黄雅琪",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022040101",
+          "student_name": "黄雅琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022020101",
+          "student_name": "赵雨欣",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "城市共享单车潮汐调度优化模型",
+          "team_name": "数模一队",
+          "students": "黄雅琪、陈子涵、赵雨欣",
+          "majors": "数据科学与大数据技术、计算机科学与技术、软件工程",
+          "mentors": "陈静",
+          "issuing_body": "中国工业与应用数学学会",
+          "certificate_no": "CERT-2023-CUMCM-01",
+          "award_date": "2023-11-10",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-CUMCM-02",
+      "competition_code": "CUMCM",
+      "year": 2023,
+      "track_name": "本科组",
+      "team_name": "数模二队",
+      "project_title": "面向校园的快递末端配送路径优化",
+      "project_brief": "以校园快递站为节点建立带时间窗的车辆路径模型。",
+      "status": "获奖",
+      "register_date": "2023-07-01",
+      "finish_date": "2023-09-24",
+      "stage_reached": "省赛",
+      "lead_major": "人工智能",
+      "leader_name": "吴思远",
+      "mentor_names": "李明",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022030101",
+          "student_name": "吴思远",
+          "major_name": "人工智能",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2022010102",
+          "student_name": "林子轩",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022020102",
+          "student_name": "周嘉豪",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202001",
+          "teacher_name": "李明",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "面向校园的快递末端配送路径优化",
+          "team_name": "数模二队",
+          "students": "吴思远、林子轩、周嘉豪",
+          "majors": "人工智能、计算机科学与技术、软件工程",
+          "mentors": "李明",
+          "issuing_body": "中国工业与应用数学学会省赛区组委会",
+          "certificate_no": "CERT-2023-CUMCM-02",
+          "award_date": "2023-11-10",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-CUMCM-03",
+      "competition_code": "CUMCM",
+      "year": 2023,
+      "track_name": "本科组",
+      "team_name": "数模三队",
+      "project_title": "区域光伏发电出力预测与消纳分析",
+      "project_brief": "融合气象数据与历史出力的组合预测模型。",
+      "status": "已完赛",
+      "register_date": "2023-07-01",
+      "finish_date": "2023-09-24",
+      "stage_reached": "省赛",
+      "lead_major": "网络工程",
+      "leader_name": "周雨桐",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023050101",
+          "student_name": "周雨桐",
+          "major_name": "网络工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023020102",
+          "student_name": "刘思彤",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2023-CCPC-01",
+      "competition_code": "CCPC",
+      "year": 2023,
+      "track_name": "分站赛",
+      "team_name": "代码先锋",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2023-09-10",
+      "finish_date": "2023-11-20",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "林子轩",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010102",
+          "student_name": "林子轩",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "代码先锋",
+          "students": "林子轩、陈子涵、李泽楷",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "中国大学生程序设计竞赛组委会",
+          "certificate_no": "CERT-2023-CCPC-01",
+          "award_date": "2023-11-25",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-4C-01",
+      "competition_code": "4C",
+      "year": 2023,
+      "track_name": "数媒静态设计",
+      "team_name": "拾光",
+      "project_title": "拾光——校园记忆数字展馆",
+      "project_brief": "以校园老照片与口述史为素材的交互式数字展馆设计。",
+      "status": "获奖",
+      "register_date": "2023-03-15",
+      "finish_date": "2023-07-20",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "赵雨欣",
+      "mentor_names": "吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022020101",
+          "student_name": "赵雨欣",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2022020102",
+          "student_name": "周嘉豪",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "拾光——校园记忆数字展馆",
+          "team_name": "拾光",
+          "students": "赵雨欣、周嘉豪",
+          "majors": "软件工程",
+          "mentors": "吴敏",
+          "issuing_body": "中国大学生计算机设计大赛组织委员会省赛区组委会",
+          "certificate_no": "CERT-2023-4C-01",
+          "award_date": "2023-07-20",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-NUEDC-01",
+      "competition_code": "NUEDC",
+      "year": 2023,
+      "track_name": "控制类",
+      "team_name": "追风",
+      "project_title": "基于视觉循迹的智能物料搬运小车",
+      "project_brief": "摄像头循迹与机械臂抓取协同控制。",
+      "status": "获奖",
+      "register_date": "2023-05-10",
+      "finish_date": "2023-08-20",
+      "stage_reached": "省赛",
+      "lead_major": "物联网工程",
+      "leader_name": "马晨曦",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022060101",
+          "student_name": "马晨曦",
+          "major_name": "物联网工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2022050101",
+          "student_name": "徐浩然",
+          "major_name": "网络工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "基于视觉循迹的智能物料搬运小车",
+          "team_name": "追风",
+          "students": "马晨曦、徐浩然",
+          "majors": "物联网工程、网络工程",
+          "mentors": "赵磊",
+          "issuing_body": "教育部高等教育司、工业和信息化部人事教育司省赛区组委会",
+          "certificate_no": "CERT-2023-NUEDC-01",
+          "award_date": "2023-09-10",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-CISCN-01",
+      "competition_code": "CISCN",
+      "year": 2023,
+      "track_name": "作品赛",
+      "team_name": "白帽小队",
+      "project_title": "面向校园网的弱口令风险检测平台",
+      "project_brief": "合规授权下的弱口令扫描与整改建议生成。",
+      "status": "获奖",
+      "register_date": "2023-04-01",
+      "finish_date": "2023-08-15",
+      "stage_reached": "省赛",
+      "lead_major": "网络工程",
+      "leader_name": "徐浩然",
+      "mentor_names": "刘洋",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022050101",
+          "student_name": "徐浩然",
+          "major_name": "网络工程",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201209",
+          "teacher_name": "刘洋",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "三等奖",
+          "award_grade": "省级",
+          "project_title": "面向校园网的弱口令风险检测平台",
+          "team_name": "白帽小队",
+          "students": "徐浩然",
+          "majors": "网络工程",
+          "mentors": "刘洋",
+          "issuing_body": "教育部高等学校网络空间安全专业教学指导委员会省赛区组委会",
+          "certificate_no": "CERT-2023-CISCN-01",
+          "award_date": "2023-07-10",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2023-SMARTCAR-01",
+      "competition_code": "SMARTCAR",
+      "year": 2023,
+      "track_name": "摄像头组",
+      "team_name": "疾风",
+      "project_title": "双车协同的智能循迹系统",
+      "project_brief": "基于摄像头与陀螺仪融合的赛道识别与速度控制。",
+      "status": "获奖",
+      "register_date": "2023-03-01",
+      "finish_date": "2023-07-15",
+      "stage_reached": "省赛",
+      "lead_major": "物联网工程",
+      "leader_name": "马晨曦",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022060101",
+          "student_name": "马晨曦",
+          "major_name": "物联网工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2022050101",
+          "student_name": "徐浩然",
+          "major_name": "网络工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2023,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "双车协同的智能循迹系统",
+          "team_name": "疾风",
+          "students": "马晨曦、徐浩然",
+          "majors": "物联网工程、网络工程",
+          "mentors": "赵磊",
+          "issuing_body": "中国自动化学会省赛区组委会",
+          "certificate_no": "CERT-2023-SMARTCAR-01",
+          "award_date": "2023-08-10",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-LANQIAO-01",
+      "competition_code": "LANQIAO",
+      "year": 2024,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2024-01-08",
+      "finish_date": "2024-06-15",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "林子轩",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010102",
+          "student_name": "林子轩",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "一等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "",
+          "students": "林子轩",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心",
+          "certificate_no": "CERT-2024-LANQIAO-01",
+          "award_date": "2024-06-15",
+          "points": 8.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-LANQIAO-02",
+      "competition_code": "LANQIAO",
+      "year": 2024,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2024-01-08",
+      "finish_date": "2024-06-15",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "李泽楷",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "",
+          "students": "李泽楷",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心",
+          "certificate_no": "CERT-2024-LANQIAO-02",
+          "award_date": "2024-06-15",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-LANQIAO-03",
+      "competition_code": "LANQIAO",
+      "year": 2024,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2024-01-08",
+      "finish_date": "2024-04-13",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "陈子涵",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "陈子涵",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2024-LANQIAO-03",
+          "award_date": "2024-04-13",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-LANQIAO-04",
+      "competition_code": "LANQIAO",
+      "year": 2024,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2024-01-08",
+      "finish_date": "2024-04-13",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "王梓萱",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "王梓萱",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2024-LANQIAO-04",
+          "award_date": "2024-04-13",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-LANQIAO-05",
+      "competition_code": "LANQIAO",
+      "year": 2024,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2024-01-08",
+      "finish_date": "2024-04-13",
+      "stage_reached": "省赛",
+      "lead_major": "网络工程",
+      "leader_name": "周雨桐",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023050101",
+          "student_name": "周雨桐",
+          "major_name": "网络工程",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "三等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "周雨桐",
+          "majors": "网络工程",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2024-LANQIAO-05",
+          "award_date": "2024-04-13",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-LANQIAO-06",
+      "competition_code": "LANQIAO",
+      "year": 2024,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2024-01-08",
+      "finish_date": "2024-04-13",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "张浩然",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2024-CUMCM-01",
+      "competition_code": "CUMCM",
+      "year": 2024,
+      "track_name": "本科组",
+      "team_name": "数模一队",
+      "project_title": "多源数据驱动的城市内涝风险预警",
+      "project_brief": "融合气象、管网与地形数据的积水风险分级预警模型。",
+      "status": "获奖",
+      "register_date": "2024-07-01",
+      "finish_date": "2024-09-22",
+      "stage_reached": "国赛",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "黄雅琪",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022040101",
+          "student_name": "黄雅琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023040101",
+          "student_name": "黄俊杰",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "一等奖",
+          "award_grade": "国家级",
+          "project_title": "多源数据驱动的城市内涝风险预警",
+          "team_name": "数模一队",
+          "students": "黄雅琪、黄俊杰、王梓萱",
+          "majors": "数据科学与大数据技术、计算机科学与技术",
+          "mentors": "陈静",
+          "issuing_body": "中国工业与应用数学学会",
+          "certificate_no": "CERT-2024-CUMCM-01",
+          "award_date": "2024-11-08",
+          "points": 8.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-CUMCM-02",
+      "competition_code": "CUMCM",
+      "year": 2024,
+      "track_name": "本科组",
+      "team_name": "数模二队",
+      "project_title": "新能源汽车充电桩布局优化",
+      "project_brief": "基于出行需求预测与排队论的充电桩选址模型。",
+      "status": "获奖",
+      "register_date": "2024-07-01",
+      "finish_date": "2024-09-22",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "陈子涵",
+      "mentor_names": "李明",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202001",
+          "teacher_name": "李明",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "新能源汽车充电桩布局优化",
+          "team_name": "数模二队",
+          "students": "陈子涵、李泽楷、陈昱衡",
+          "majors": "计算机科学与技术、人工智能",
+          "mentors": "李明",
+          "issuing_body": "中国工业与应用数学学会省赛区组委会",
+          "certificate_no": "CERT-2024-CUMCM-02",
+          "award_date": "2024-11-08",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-CCPC-01",
+      "competition_code": "CCPC",
+      "year": 2024,
+      "track_name": "分站赛",
+      "team_name": "代码先锋",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2024-09-10",
+      "finish_date": "2024-11-20",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "李泽楷",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2022010102",
+          "student_name": "林子轩",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "代码先锋",
+          "students": "李泽楷、林子轩、陈子涵",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "中国大学生程序设计竞赛组委会",
+          "certificate_no": "CERT-2024-CCPC-01",
+          "award_date": "2024-11-25",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-CCPC-02",
+      "competition_code": "CCPC",
+      "year": 2024,
+      "track_name": "分站赛",
+      "team_name": "代码先锋二队",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2024-09-10",
+      "finish_date": "2024-11-20",
+      "stage_reached": "分站赛",
+      "lead_major": "人工智能",
+      "leader_name": "陈昱衡",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023050101",
+          "student_name": "周雨桐",
+          "major_name": "网络工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2024-4C-01",
+      "competition_code": "4C",
+      "year": 2024,
+      "track_name": "数媒静态设计",
+      "team_name": "拾光",
+      "project_title": "拾光——校园记忆数字展馆",
+      "project_brief": "在 2023 年省赛版本基础上补充无障碍与多端适配。",
+      "status": "获奖",
+      "register_date": "2024-03-15",
+      "finish_date": "2024-07-20",
+      "stage_reached": "国赛",
+      "lead_major": "软件工程",
+      "leader_name": "赵雨欣",
+      "mentor_names": "吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022020101",
+          "student_name": "赵雨欣",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023020102",
+          "student_name": "刘思彤",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "拾光——校园记忆数字展馆",
+          "team_name": "拾光",
+          "students": "赵雨欣、刘思彤、张浩然",
+          "majors": "软件工程",
+          "mentors": "吴敏",
+          "issuing_body": "中国大学生计算机设计大赛组织委员会",
+          "certificate_no": "CERT-2024-4C-01",
+          "award_date": "2024-07-25",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-4C-02",
+      "competition_code": "4C",
+      "year": 2024,
+      "track_name": "软件应用与开发",
+      "team_name": "拾光二队",
+      "project_title": "社区旧物循环共享平台",
+      "project_brief": "面向社区闲置物品的发布、交换与信用评价系统。",
+      "status": "已完赛",
+      "register_date": "2024-03-15",
+      "finish_date": "2024-07-20",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "王梓萱",
+      "mentor_names": "吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023040101",
+          "student_name": "黄俊杰",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2024-NUEDC-01",
+      "competition_code": "NUEDC",
+      "year": 2024,
+      "track_name": "控制类",
+      "team_name": "追风",
+      "project_title": "基于视觉循迹的智能物料搬运小车",
+      "project_brief": "升级机械臂抓取与多目标识别，完成自动上下料。",
+      "status": "获奖",
+      "register_date": "2024-05-10",
+      "finish_date": "2024-08-20",
+      "stage_reached": "省赛",
+      "lead_major": "物联网工程",
+      "leader_name": "马晨曦",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022060101",
+          "student_name": "马晨曦",
+          "major_name": "物联网工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023060101",
+          "student_name": "孙铭泽",
+          "major_name": "物联网工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022050101",
+          "student_name": "徐浩然",
+          "major_name": "网络工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "基于视觉循迹的智能物料搬运小车",
+          "team_name": "追风",
+          "students": "马晨曦、孙铭泽、徐浩然",
+          "majors": "物联网工程、网络工程",
+          "mentors": "赵磊",
+          "issuing_body": "教育部高等教育司、工业和信息化部人事教育司省赛区组委会",
+          "certificate_no": "CERT-2024-NUEDC-01",
+          "award_date": "2024-09-10",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-SMARTCAR-01",
+      "competition_code": "SMARTCAR",
+      "year": 2024,
+      "track_name": "摄像头组",
+      "team_name": "疾风",
+      "project_title": "双车协同的智能循迹系统",
+      "project_brief": "加入无线协同与动态避障，提升复杂赛道通过率。",
+      "status": "获奖",
+      "register_date": "2024-03-01",
+      "finish_date": "2024-07-15",
+      "stage_reached": "国赛",
+      "lead_major": "物联网工程",
+      "leader_name": "马晨曦",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022060101",
+          "student_name": "马晨曦",
+          "major_name": "物联网工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023060101",
+          "student_name": "孙铭泽",
+          "major_name": "物联网工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022050101",
+          "student_name": "徐浩然",
+          "major_name": "网络工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "双车协同的智能循迹系统",
+          "team_name": "疾风",
+          "students": "马晨曦、孙铭泽、徐浩然",
+          "majors": "物联网工程、网络工程",
+          "mentors": "赵磊",
+          "issuing_body": "中国自动化学会",
+          "certificate_no": "CERT-2024-SMARTCAR-01",
+          "award_date": "2024-08-25",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-CISCN-01",
+      "competition_code": "CISCN",
+      "year": 2024,
+      "track_name": "作品赛",
+      "team_name": "白帽小队",
+      "project_title": "面向校园网的弱口令风险检测平台",
+      "project_brief": "新增资产识别与整改闭环，形成可复用的校园安全体检工具。",
+      "status": "获奖",
+      "register_date": "2024-04-01",
+      "finish_date": "2024-08-15",
+      "stage_reached": "省赛",
+      "lead_major": "网络工程",
+      "leader_name": "徐浩然",
+      "mentor_names": "刘洋",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022050101",
+          "student_name": "徐浩然",
+          "major_name": "网络工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023050101",
+          "student_name": "周雨桐",
+          "major_name": "网络工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201209",
+          "teacher_name": "刘洋",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "面向校园网的弱口令风险检测平台",
+          "team_name": "白帽小队",
+          "students": "徐浩然、周雨桐",
+          "majors": "网络工程",
+          "mentors": "刘洋",
+          "issuing_body": "教育部高等学校网络空间安全专业教学指导委员会省赛区组委会",
+          "certificate_no": "CERT-2024-CISCN-01",
+          "award_date": "2024-07-10",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-NCSIC-01",
+      "competition_code": "NCSIC",
+      "year": 2024,
+      "track_name": "高教主赛道-本科生创意组",
+      "team_name": "智巡科技",
+      "project_title": "智巡科技——面向变电站的自主巡检机器人",
+      "project_brief": "面向变电站表计识别的自主巡检机器人，已完成实验室样机与两轮现场测试。",
+      "status": "获奖",
+      "register_date": "2024-04-15",
+      "finish_date": "2024-10-15",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "周嘉豪",
+      "mentor_names": "王芳、吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022020102",
+          "student_name": "周嘉豪",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022020101",
+          "student_name": "赵雨欣",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023020102",
+          "student_name": "刘思彤",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201503",
+          "teacher_name": "王芳",
+          "role": "第一指导教师"
+        },
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "特等奖",
+          "award_grade": "省级",
+          "project_title": "智巡科技——面向变电站的自主巡检机器人",
+          "team_name": "智巡科技",
+          "students": "周嘉豪、张浩然、赵雨欣、刘思彤",
+          "majors": "软件工程",
+          "mentors": "王芳、吴敏",
+          "issuing_body": "教育部等十二部委省赛区组委会",
+          "certificate_no": "CERT-2024-NCSIC-01",
+          "award_date": "2024-08-20",
+          "points": 6.0,
+          "remark": "省赛金奖，按特等奖统计"
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-NCSIC-02",
+      "competition_code": "NCSIC",
+      "year": 2024,
+      "track_name": "高教主赛道-本科生创意组",
+      "team_name": "农智云",
+      "project_title": "农智云——轻量化农业病害识别平台",
+      "project_brief": "面向县域农户的轻量化病害识别小程序。",
+      "status": "获奖",
+      "register_date": "2024-04-15",
+      "finish_date": "2024-06-15",
+      "stage_reached": "校赛",
+      "lead_major": "人工智能",
+      "leader_name": "陈昱衡",
+      "mentor_names": "张伟",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022030101",
+          "student_name": "吴思远",
+          "major_name": "人工智能",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201806",
+          "teacher_name": "张伟",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "一等奖",
+          "award_grade": "校级",
+          "project_title": "农智云——轻量化农业病害识别平台",
+          "team_name": "农智云",
+          "students": "陈昱衡、王梓萱、吴思远",
+          "majors": "人工智能、计算机科学与技术",
+          "mentors": "张伟",
+          "issuing_body": "计算与智能技术学院",
+          "certificate_no": "CERT-2024-NCSIC-02",
+          "award_date": "2024-06-15",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2024-CSSC-01",
+      "competition_code": "CSSC",
+      "year": 2024,
+      "track_name": "本科组",
+      "team_name": "数智调查",
+      "project_title": "数字消费背景下大学生国潮品牌偏好调查",
+      "project_brief": "覆盖 6 所高校 1200 份问卷的国潮品牌偏好与消费决策分析。",
+      "status": "获奖",
+      "register_date": "2023-10-25",
+      "finish_date": "2024-05-20",
+      "stage_reached": "省赛",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "黄雅琪",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022040101",
+          "student_name": "黄雅琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023040101",
+          "student_name": "黄俊杰",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2024,
+          "award_level": "三等奖",
+          "award_grade": "省级",
+          "project_title": "数字消费背景下大学生国潮品牌偏好调查",
+          "team_name": "数智调查",
+          "students": "黄雅琪、黄俊杰、王梓萱",
+          "majors": "数据科学与大数据技术、计算机科学与技术",
+          "mentors": "陈静",
+          "issuing_body": "中国商业统计学会省赛区组委会",
+          "certificate_no": "CERT-2024-CSSC-01",
+          "award_date": "2024-05-20",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-LANQIAO-01",
+      "competition_code": "LANQIAO",
+      "year": 2025,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2025-01-06",
+      "finish_date": "2025-06-14",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "李泽楷",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "一等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "",
+          "students": "李泽楷",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心",
+          "certificate_no": "CERT-2025-LANQIAO-01",
+          "award_date": "2025-06-14",
+          "points": 8.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-LANQIAO-02",
+      "competition_code": "LANQIAO",
+      "year": 2025,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2025-01-06",
+      "finish_date": "2025-06-14",
+      "stage_reached": "国赛",
+      "lead_major": "人工智能",
+      "leader_name": "陈昱衡",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "",
+          "students": "陈昱衡",
+          "majors": "人工智能",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心",
+          "certificate_no": "CERT-2025-LANQIAO-02",
+          "award_date": "2025-06-14",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-LANQIAO-03",
+      "competition_code": "LANQIAO",
+      "year": 2025,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2025-01-06",
+      "finish_date": "2025-04-12",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "陈子涵",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "陈子涵",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2025-LANQIAO-03",
+          "award_date": "2025-04-12",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-LANQIAO-04",
+      "competition_code": "LANQIAO",
+      "year": 2025,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2025-01-06",
+      "finish_date": "2025-04-12",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "王梓萱",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "王梓萱",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2025-LANQIAO-04",
+          "award_date": "2025-04-12",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-LANQIAO-05",
+      "competition_code": "LANQIAO",
+      "year": 2025,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2025-01-06",
+      "finish_date": "2025-04-12",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "何雨泽",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "三等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "何雨泽",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2025-LANQIAO-05",
+          "award_date": "2025-04-12",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-LANQIAO-06",
+      "competition_code": "LANQIAO",
+      "year": 2025,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2025-01-06",
+      "finish_date": "2025-04-12",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "郭子怡",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2025-CUMCM-01",
+      "competition_code": "CUMCM",
+      "year": 2025,
+      "track_name": "本科组",
+      "team_name": "数模一队",
+      "project_title": "面向极端天气的应急物资储备优化",
+      "project_brief": "构建需求不确定条件下的多级储备与调拨模型。",
+      "status": "获奖",
+      "register_date": "2025-07-01",
+      "finish_date": "2025-09-21",
+      "stage_reached": "国赛",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "黄雅琪",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022040101",
+          "student_name": "黄雅琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023040101",
+          "student_name": "黄俊杰",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024040101",
+          "student_name": "梁雨菲",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "面向极端天气的应急物资储备优化",
+          "team_name": "数模一队",
+          "students": "黄雅琪、黄俊杰、梁雨菲",
+          "majors": "数据科学与大数据技术",
+          "mentors": "陈静",
+          "issuing_body": "中国工业与应用数学学会",
+          "certificate_no": "CERT-2025-CUMCM-01",
+          "award_date": "2025-11-07",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-CUMCM-02",
+      "competition_code": "CUMCM",
+      "year": 2025,
+      "track_name": "本科组",
+      "team_name": "数模二队",
+      "project_title": "城市低空物流无人机起降点选址",
+      "project_brief": "考虑噪声与空域约束的选址与路径联合优化。",
+      "status": "获奖",
+      "register_date": "2025-07-01",
+      "finish_date": "2025-09-21",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "陈子涵",
+      "mentor_names": "李明",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022010101",
+          "student_name": "陈子涵",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202001",
+          "teacher_name": "李明",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "城市低空物流无人机起降点选址",
+          "team_name": "数模二队",
+          "students": "陈子涵、李泽楷、王梓萱",
+          "majors": "计算机科学与技术",
+          "mentors": "李明",
+          "issuing_body": "中国工业与应用数学学会省赛区组委会",
+          "certificate_no": "CERT-2025-CUMCM-02",
+          "award_date": "2025-11-07",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-CUMCM-03",
+      "competition_code": "CUMCM",
+      "year": 2025,
+      "track_name": "本科组",
+      "team_name": "数模三队",
+      "project_title": "高校教学楼能耗预测与节能策略",
+      "project_brief": "基于分项计量数据的能耗基线建模。",
+      "status": "已完赛",
+      "register_date": "2025-07-01",
+      "finish_date": "2025-09-21",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "高梦瑶",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024020101",
+          "student_name": "高梦瑶",
+          "major_name": "软件工程",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2025-CCPC-01",
+      "competition_code": "CCPC",
+      "year": 2025,
+      "track_name": "分站赛",
+      "team_name": "代码先锋",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2025-09-10",
+      "finish_date": "2025-11-16",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "李泽楷",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022010102",
+          "student_name": "林子轩",
+          "major_name": "计算机科学与技术",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "代码先锋",
+          "students": "李泽楷、何雨泽、林子轩",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "中国大学生程序设计竞赛组委会",
+          "certificate_no": "CERT-2025-CCPC-01",
+          "award_date": "2025-11-20",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-CCPC-02",
+      "competition_code": "CCPC",
+      "year": 2025,
+      "track_name": "分站赛",
+      "team_name": "代码先锋二队",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2025-09-10",
+      "finish_date": "2025-11-16",
+      "stage_reached": "分站赛",
+      "lead_major": "人工智能",
+      "leader_name": "陈昱衡",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023050101",
+          "student_name": "周雨桐",
+          "major_name": "网络工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2025-4C-01",
+      "competition_code": "4C",
+      "year": 2025,
+      "track_name": "数媒静态设计",
+      "team_name": "拾光",
+      "project_title": "拾光——校园记忆数字展馆",
+      "project_brief": "新增老校友口述史采集模块与线上策展工作流。",
+      "status": "获奖",
+      "register_date": "2025-03-15",
+      "finish_date": "2025-07-20",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "刘思彤",
+      "mentor_names": "吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023020102",
+          "student_name": "刘思彤",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024020101",
+          "student_name": "高梦瑶",
+          "major_name": "软件工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "拾光——校园记忆数字展馆",
+          "team_name": "拾光",
+          "students": "刘思彤、高梦瑶、张浩然",
+          "majors": "软件工程",
+          "mentors": "吴敏",
+          "issuing_body": "中国大学生计算机设计大赛组织委员会省赛区组委会",
+          "certificate_no": "CERT-2025-4C-01",
+          "award_date": "2025-07-20",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-4C-02",
+      "competition_code": "4C",
+      "year": 2025,
+      "track_name": "人工智能应用",
+      "team_name": "智绘乡韵",
+      "project_title": "智绘乡韵——乡村文旅数字导览",
+      "project_brief": "融合 AIGC 路线生成与 AR 导览的乡村文旅应用。",
+      "status": "已完赛",
+      "register_date": "2025-03-15",
+      "finish_date": "2025-07-20",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "王梓萱",
+      "mentor_names": "吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024040101",
+          "student_name": "梁雨菲",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2025-NUEDC-01",
+      "competition_code": "NUEDC",
+      "year": 2025,
+      "track_name": "控制类",
+      "team_name": "追风",
+      "project_title": "四天三夜赛题：智能送药小车",
+      "project_brief": "完成题目要求的循迹、识别、送药与返回全流程。",
+      "status": "获奖",
+      "register_date": "2025-05-10",
+      "finish_date": "2025-08-10",
+      "stage_reached": "国赛",
+      "lead_major": "物联网工程",
+      "leader_name": "马晨曦",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022060101",
+          "student_name": "马晨曦",
+          "major_name": "物联网工程",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023060101",
+          "student_name": "孙铭泽",
+          "major_name": "物联网工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024060101",
+          "student_name": "唐雅欣",
+          "major_name": "物联网工程",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "一等奖",
+          "award_grade": "国家级",
+          "project_title": "四天三夜赛题：智能送药小车",
+          "team_name": "追风",
+          "students": "马晨曦、孙铭泽、唐雅欣",
+          "majors": "物联网工程",
+          "mentors": "赵磊",
+          "issuing_body": "教育部高等教育司、工业和信息化部人事教育司",
+          "certificate_no": "CERT-2025-NUEDC-01",
+          "award_date": "2025-09-20",
+          "points": 8.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-SMARTCAR-01",
+      "competition_code": "SMARTCAR",
+      "year": 2025,
+      "track_name": "摄像头组",
+      "team_name": "疾风",
+      "project_title": "双车协同的智能循迹系统",
+      "project_brief": "优化双车会车策略与坡道通过能力。",
+      "status": "获奖",
+      "register_date": "2025-03-01",
+      "finish_date": "2025-07-15",
+      "stage_reached": "省赛",
+      "lead_major": "物联网工程",
+      "leader_name": "孙铭泽",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023060101",
+          "student_name": "孙铭泽",
+          "major_name": "物联网工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024060101",
+          "student_name": "唐雅欣",
+          "major_name": "物联网工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022060101",
+          "student_name": "马晨曦",
+          "major_name": "物联网工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "双车协同的智能循迹系统",
+          "team_name": "疾风",
+          "students": "孙铭泽、唐雅欣、马晨曦",
+          "majors": "物联网工程",
+          "mentors": "赵磊",
+          "issuing_body": "中国自动化学会省赛区组委会",
+          "certificate_no": "CERT-2025-SMARTCAR-01",
+          "award_date": "2025-08-10",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-CISCN-01",
+      "competition_code": "CISCN",
+      "year": 2025,
+      "track_name": "作品赛",
+      "team_name": "白帽小队",
+      "project_title": "面向高校的零信任身份认证平台",
+      "project_brief": "基于持续信任评估的校园零信任接入原型。",
+      "status": "获奖",
+      "register_date": "2025-04-01",
+      "finish_date": "2025-08-15",
+      "stage_reached": "国赛",
+      "lead_major": "网络工程",
+      "leader_name": "周雨桐",
+      "mentor_names": "刘洋",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023050101",
+          "student_name": "周雨桐",
+          "major_name": "网络工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024050101",
+          "student_name": "宋子豪",
+          "major_name": "网络工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022050101",
+          "student_name": "徐浩然",
+          "major_name": "网络工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201209",
+          "teacher_name": "刘洋",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "面向高校的零信任身份认证平台",
+          "team_name": "白帽小队",
+          "students": "周雨桐、宋子豪、徐浩然",
+          "majors": "网络工程",
+          "mentors": "刘洋",
+          "issuing_body": "教育部高等学校网络空间安全专业教学指导委员会",
+          "certificate_no": "CERT-2025-CISCN-01",
+          "award_date": "2025-09-05",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-CISCN-02",
+      "competition_code": "CISCN",
+      "year": 2025,
+      "track_name": "创新实践能力赛",
+      "team_name": "白帽二队",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2025-04-01",
+      "finish_date": "2025-07-10",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "何雨泽",
+      "mentor_names": "刘洋",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024040101",
+          "student_name": "梁雨菲",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201209",
+          "teacher_name": "刘洋",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2025-NCSIC-01",
+      "competition_code": "NCSIC",
+      "year": 2025,
+      "track_name": "高教主赛道-本科生创业组",
+      "team_name": "智巡科技",
+      "project_title": "智巡科技——面向变电站的自主巡检机器人",
+      "project_brief": "完成第二代样机与变电站试点，形成巡检数据闭环。",
+      "status": "获奖",
+      "register_date": "2025-04-15",
+      "finish_date": "2025-10-15",
+      "stage_reached": "国赛",
+      "lead_major": "软件工程",
+      "leader_name": "张浩然",
+      "mentor_names": "王芳、吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024020101",
+          "student_name": "高梦瑶",
+          "major_name": "软件工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022020102",
+          "student_name": "周嘉豪",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2022020101",
+          "student_name": "赵雨欣",
+          "major_name": "软件工程",
+          "grade": "2022级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201503",
+          "teacher_name": "王芳",
+          "role": "第一指导教师"
+        },
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "智巡科技——面向变电站的自主巡检机器人",
+          "team_name": "智巡科技",
+          "students": "张浩然、高梦瑶、周嘉豪、赵雨欣",
+          "majors": "软件工程",
+          "mentors": "王芳、吴敏",
+          "issuing_body": "教育部等十二部委",
+          "certificate_no": "CERT-2025-NCSIC-01",
+          "award_date": "2025-10-15",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2025-CSSC-01",
+      "competition_code": "CSSC",
+      "year": 2025,
+      "track_name": "本科组",
+      "team_name": "数智调查",
+      "project_title": "银发群体数字适老化产品使用障碍调查",
+      "project_brief": "面向 4 个城市 900 位老年人的数字适老化需求调查。",
+      "status": "获奖",
+      "register_date": "2024-10-20",
+      "finish_date": "2025-05-15",
+      "stage_reached": "省赛",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "黄雅琪",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2022040101",
+          "student_name": "黄雅琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2022级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024040101",
+          "student_name": "梁雨菲",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2025,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "银发群体数字适老化产品使用障碍调查",
+          "team_name": "数智调查",
+          "students": "黄雅琪、梁雨菲、王梓萱",
+          "majors": "数据科学与大数据技术、计算机科学与技术",
+          "mentors": "陈静",
+          "issuing_body": "中国商业统计学会省赛区组委会",
+          "certificate_no": "CERT-2025-CSSC-01",
+          "award_date": "2025-05-15",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-LANQIAO-01",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-06-13",
+      "stage_reached": "国赛",
+      "lead_major": "人工智能",
+      "leader_name": "陈昱衡",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "一等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "",
+          "students": "陈昱衡",
+          "majors": "人工智能",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心",
+          "certificate_no": "CERT-2026-LANQIAO-01",
+          "award_date": "2026-06-13",
+          "points": 8.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-LANQIAO-02",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-06-13",
+      "stage_reached": "国赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "李泽楷",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "",
+          "team_name": "",
+          "students": "李泽楷",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心",
+          "certificate_no": "CERT-2026-LANQIAO-02",
+          "award_date": "2026-06-13",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-LANQIAO-03",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-04-11",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "何雨泽",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "何雨泽",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2026-LANQIAO-03",
+          "award_date": "2026-04-11",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-LANQIAO-04",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-04-11",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "郭子怡",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "郭子怡",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2026-LANQIAO-04",
+          "award_date": "2026-04-11",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-LANQIAO-05",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-04-11",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "冯子墨",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2025010101",
+          "student_name": "冯子墨",
+          "major_name": "计算机科学与技术",
+          "grade": "2025级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "三等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "冯子墨",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2026-LANQIAO-05",
+          "award_date": "2026-04-11",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-LANQIAO-06",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "获奖",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-04-11",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "王梓萱",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "三等奖",
+          "award_grade": "省级",
+          "project_title": "",
+          "team_name": "",
+          "students": "王梓萱",
+          "majors": "计算机科学与技术",
+          "mentors": "孙丽",
+          "issuing_body": "工业和信息化部人才交流中心省赛区组委会",
+          "certificate_no": "CERT-2026-LANQIAO-06",
+          "award_date": "2026-04-11",
+          "points": 2.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-LANQIAO-07",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-Python 程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-04-11",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "邓佳琪",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2025020101",
+          "student_name": "邓佳琪",
+          "major_name": "软件工程",
+          "grade": "2025级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-LANQIAO-08",
+      "competition_code": "LANQIAO",
+      "year": 2026,
+      "track_name": "软件赛-C/C++程序设计",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2026-01-05",
+      "finish_date": "2026-04-11",
+      "stage_reached": "省赛",
+      "lead_major": "网络工程",
+      "leader_name": "宋子豪",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024050101",
+          "student_name": "宋子豪",
+          "major_name": "网络工程",
+          "grade": "2024级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-CUMCM-01",
+      "competition_code": "CUMCM",
+      "year": 2026,
+      "track_name": "本科组",
+      "team_name": "数模一队",
+      "project_title": "面向城市更新的社区公共服务设施配置",
+      "project_brief": "综合考虑人口结构、可达性与公平性的设施选址模型。",
+      "status": "已完赛",
+      "register_date": "2026-07-01",
+      "finish_date": "2026-09-13",
+      "stage_reached": "国赛",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "黄俊杰",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023040101",
+          "student_name": "黄俊杰",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024040101",
+          "student_name": "梁雨菲",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025040101",
+          "student_name": "彭思琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2025级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-CUMCM-02",
+      "competition_code": "CUMCM",
+      "year": 2026,
+      "track_name": "本科组",
+      "team_name": "数模二队",
+      "project_title": "多模式交通网络的韧性评估",
+      "project_brief": "构建站点失效情景下的网络韧性指标与恢复策略。",
+      "status": "已完赛",
+      "register_date": "2026-07-01",
+      "finish_date": "2026-09-13",
+      "stage_reached": "省赛",
+      "lead_major": "人工智能",
+      "leader_name": "陈昱衡",
+      "mentor_names": "李明",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202001",
+          "teacher_name": "李明",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-CUMCM-03",
+      "competition_code": "CUMCM",
+      "year": 2026,
+      "track_name": "本科组",
+      "team_name": "数模三队",
+      "project_title": "校园碳足迹核算与减排路径",
+      "project_brief": "基于活动水平数据的校园碳排放核算模型。",
+      "status": "已完赛",
+      "register_date": "2026-07-01",
+      "finish_date": "2026-09-13",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "郭子怡",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2025010101",
+          "student_name": "冯子墨",
+          "major_name": "计算机科学与技术",
+          "grade": "2025级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025020101",
+          "student_name": "邓佳琪",
+          "major_name": "软件工程",
+          "grade": "2025级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-CCPC-01",
+      "competition_code": "CCPC",
+      "year": 2026,
+      "track_name": "分站赛",
+      "team_name": "代码先锋",
+      "project_title": "",
+      "project_brief": "",
+      "status": "参赛中",
+      "register_date": "2026-09-05",
+      "finish_date": null,
+      "stage_reached": "分站赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "李泽楷",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023010101",
+          "student_name": "李泽楷",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-4C-01",
+      "competition_code": "4C",
+      "year": 2026,
+      "track_name": "数媒静态设计",
+      "team_name": "拾光",
+      "project_title": "拾光——校园记忆数字展馆",
+      "project_brief": "新增生成式策展助手与无障碍导览。",
+      "status": "获奖",
+      "register_date": "2026-03-15",
+      "finish_date": "2026-07-20",
+      "stage_reached": "省赛",
+      "lead_major": "软件工程",
+      "leader_name": "高梦瑶",
+      "mentor_names": "吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024020101",
+          "student_name": "高梦瑶",
+          "major_name": "软件工程",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023020102",
+          "student_name": "刘思彤",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025020101",
+          "student_name": "邓佳琪",
+          "major_name": "软件工程",
+          "grade": "2025级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "二等奖",
+          "award_grade": "省级",
+          "project_title": "拾光——校园记忆数字展馆",
+          "team_name": "拾光",
+          "students": "高梦瑶、刘思彤、邓佳琪",
+          "majors": "软件工程",
+          "mentors": "吴敏",
+          "issuing_body": "中国大学生计算机设计大赛组织委员会省赛区组委会",
+          "certificate_no": "CERT-2026-4C-01",
+          "award_date": "2026-07-20",
+          "points": 3.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-4C-02",
+      "competition_code": "4C",
+      "year": 2026,
+      "track_name": "人工智能应用",
+      "team_name": "智绘乡韵",
+      "project_title": "智绘乡韵——乡村文旅数字导览",
+      "project_brief": "迭代乡村知识图谱与多语言导览能力。",
+      "status": "已完赛",
+      "register_date": "2026-03-15",
+      "finish_date": "2026-07-20",
+      "stage_reached": "省赛",
+      "lead_major": "人工智能",
+      "leader_name": "陈昱衡",
+      "mentor_names": "吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-SMARTCAR-01",
+      "competition_code": "SMARTCAR",
+      "year": 2026,
+      "track_name": "摄像头组",
+      "team_name": "疾风",
+      "project_title": "双车协同的智能循迹系统",
+      "project_brief": "引入模型预测控制提升高速过弯稳定性。",
+      "status": "获奖",
+      "register_date": "2026-03-01",
+      "finish_date": "2026-07-15",
+      "stage_reached": "省赛",
+      "lead_major": "物联网工程",
+      "leader_name": "孙铭泽",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023060101",
+          "student_name": "孙铭泽",
+          "major_name": "物联网工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024060101",
+          "student_name": "唐雅欣",
+          "major_name": "物联网工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024030101",
+          "student_name": "罗一鸣",
+          "major_name": "人工智能",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "一等奖",
+          "award_grade": "省级",
+          "project_title": "双车协同的智能循迹系统",
+          "team_name": "疾风",
+          "students": "孙铭泽、唐雅欣、罗一鸣",
+          "majors": "物联网工程、人工智能",
+          "mentors": "赵磊",
+          "issuing_body": "中国自动化学会省赛区组委会",
+          "certificate_no": "CERT-2026-SMARTCAR-01",
+          "award_date": "2026-08-10",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-CISCN-01",
+      "competition_code": "CISCN",
+      "year": 2026,
+      "track_name": "作品赛",
+      "team_name": "白帽小队",
+      "project_title": "面向高校的零信任身份认证平台",
+      "project_brief": "新增隐私计算与细粒度授权审计。",
+      "status": "获奖",
+      "register_date": "2026-04-01",
+      "finish_date": "2026-08-15",
+      "stage_reached": "国赛",
+      "lead_major": "网络工程",
+      "leader_name": "宋子豪",
+      "mentor_names": "刘洋",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024050101",
+          "student_name": "宋子豪",
+          "major_name": "网络工程",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2023050101",
+          "student_name": "周雨桐",
+          "major_name": "网络工程",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025030101",
+          "student_name": "曹俊宇",
+          "major_name": "人工智能",
+          "grade": "2025级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201209",
+          "teacher_name": "刘洋",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "面向高校的零信任身份认证平台",
+          "team_name": "白帽小队",
+          "students": "宋子豪、周雨桐、曹俊宇",
+          "majors": "网络工程、人工智能",
+          "mentors": "刘洋",
+          "issuing_body": "教育部高等学校网络空间安全专业教学指导委员会",
+          "certificate_no": "CERT-2026-CISCN-01",
+          "award_date": "2026-09-05",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-CISCN-02",
+      "competition_code": "CISCN",
+      "year": 2026,
+      "track_name": "创新实践能力赛",
+      "team_name": "白帽二队",
+      "project_title": "",
+      "project_brief": "",
+      "status": "已完赛",
+      "register_date": "2026-04-01",
+      "finish_date": "2026-07-10",
+      "stage_reached": "省赛",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "何雨泽",
+      "mentor_names": "刘洋",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025010101",
+          "student_name": "冯子墨",
+          "major_name": "计算机科学与技术",
+          "grade": "2025级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201209",
+          "teacher_name": "刘洋",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-NCSIC-01",
+      "competition_code": "NCSIC",
+      "year": 2026,
+      "track_name": "高教主赛道-本科生创业组",
+      "team_name": "智巡科技",
+      "project_title": "智巡科技——面向变电站的自主巡检机器人",
+      "project_brief": "完成第三代样机与两座变电站的巡检服务验证。",
+      "status": "获奖",
+      "register_date": "2026-04-15",
+      "finish_date": "2026-10-15",
+      "stage_reached": "国赛",
+      "lead_major": "软件工程",
+      "leader_name": "张浩然",
+      "mentor_names": "王芳、吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023020101",
+          "student_name": "张浩然",
+          "major_name": "软件工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024020101",
+          "student_name": "高梦瑶",
+          "major_name": "软件工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023030101",
+          "student_name": "陈昱衡",
+          "major_name": "人工智能",
+          "grade": "2023级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023010102",
+          "student_name": "王梓萱",
+          "major_name": "计算机科学与技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201503",
+          "teacher_name": "王芳",
+          "role": "第一指导教师"
+        },
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "二等奖",
+          "award_grade": "国家级",
+          "project_title": "智巡科技——面向变电站的自主巡检机器人",
+          "team_name": "智巡科技",
+          "students": "张浩然、高梦瑶、陈昱衡、王梓萱",
+          "majors": "软件工程、人工智能、计算机科学与技术",
+          "mentors": "王芳、吴敏",
+          "issuing_body": "教育部等十二部委",
+          "certificate_no": "CERT-2026-NCSIC-01",
+          "award_date": "2026-10-15",
+          "points": 6.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-NUEDC-01",
+      "competition_code": "NUEDC",
+      "year": 2026,
+      "track_name": "控制类",
+      "team_name": "追风",
+      "project_title": "智能仓储搬运机器人",
+      "project_brief": "面向实训场景的自主导航、避障与货架识别。",
+      "status": "获奖",
+      "register_date": "2026-05-10",
+      "finish_date": "2026-08-10",
+      "stage_reached": "国赛",
+      "lead_major": "物联网工程",
+      "leader_name": "孙铭泽",
+      "mentor_names": "赵磊",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2023060101",
+          "student_name": "孙铭泽",
+          "major_name": "物联网工程",
+          "grade": "2023级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024030101",
+          "student_name": "罗一鸣",
+          "major_name": "人工智能",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024060101",
+          "student_name": "唐雅欣",
+          "major_name": "物联网工程",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": [
+        {
+          "award_year": 2026,
+          "award_level": "三等奖",
+          "award_grade": "国家级",
+          "project_title": "智能仓储搬运机器人",
+          "team_name": "追风",
+          "students": "孙铭泽、罗一鸣、唐雅欣",
+          "majors": "物联网工程、人工智能",
+          "mentors": "赵磊",
+          "issuing_body": "教育部高等教育司、工业和信息化部人事教育司",
+          "certificate_no": "CERT-2026-NUEDC-01",
+          "award_date": "2026-09-20",
+          "points": 4.0,
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "code": "REG-2026-PROV-ACMICPC-01",
+      "competition_code": "PROV-ACMICPC",
+      "year": 2026,
+      "track_name": "正式赛",
+      "team_name": "代码先锋二队",
+      "project_title": "",
+      "project_brief": "",
+      "status": "备赛中",
+      "register_date": "2026-10-10",
+      "finish_date": null,
+      "stage_reached": "报名",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "郭子怡",
+      "mentor_names": "孙丽",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2025010101",
+          "student_name": "冯子墨",
+          "major_name": "计算机科学与技术",
+          "grade": "2025级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T202103",
+          "teacher_name": "孙丽",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-SCHOOL-01",
+      "competition_code": "SCHOOL-PROG",
+      "year": 2026,
+      "track_name": "个人赛",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "备赛中",
+      "register_date": "2026-10-01",
+      "finish_date": null,
+      "stage_reached": "报名",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "冯子墨",
+      "mentor_names": "",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2025010101",
+          "student_name": "冯子墨",
+          "major_name": "计算机科学与技术",
+          "grade": "2025级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-SCHOOL-02",
+      "competition_code": "SCHOOL-PROG",
+      "year": 2026,
+      "track_name": "个人赛",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "备赛中",
+      "register_date": "2026-10-01",
+      "finish_date": null,
+      "stage_reached": "报名",
+      "lead_major": "软件工程",
+      "leader_name": "邓佳琪",
+      "mentor_names": "",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2025020101",
+          "student_name": "邓佳琪",
+          "major_name": "软件工程",
+          "grade": "2025级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [],
+      "awards": []
+    },
+    {
+      "code": "REG-2026-SCHOOL-03",
+      "competition_code": "SCHOOL-PROG",
+      "year": 2026,
+      "track_name": "个人赛",
+      "team_name": "",
+      "project_title": "",
+      "project_brief": "",
+      "status": "备赛中",
+      "register_date": "2026-10-01",
+      "finish_date": null,
+      "stage_reached": "报名",
+      "lead_major": "人工智能",
+      "leader_name": "曹俊宇",
+      "mentor_names": "",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2025030101",
+          "student_name": "曹俊宇",
+          "major_name": "人工智能",
+          "grade": "2025级",
+          "role": "选手"
+        }
+      ],
+      "mentors": [],
+      "awards": []
+    },
+    {
+      "code": "REG-2027-CSSC-01",
+      "competition_code": "CSSC",
+      "year": 2027,
+      "track_name": "本科组",
+      "team_name": "数智调查",
+      "project_title": "生成式 AI 使用行为与大学生学习方式调查",
+      "project_brief": "拟覆盖 8 所高校的生成式 AI 使用行为追踪调查。",
+      "status": "报名中",
+      "register_date": "2026-10-12",
+      "finish_date": null,
+      "stage_reached": "报名",
+      "lead_major": "数据科学与大数据技术",
+      "leader_name": "梁雨菲",
+      "mentor_names": "陈静",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024040101",
+          "student_name": "梁雨菲",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2025040101",
+          "student_name": "彭思琪",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2025级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2023040101",
+          "student_name": "黄俊杰",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2023级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201905",
+          "teacher_name": "陈静",
+          "role": "第一指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2027-NCSIC-01",
+      "competition_code": "NCSIC",
+      "year": 2027,
+      "track_name": "高教主赛道-本科生创意组",
+      "team_name": "智巡科技",
+      "project_title": "智巡科技——面向变电站的自主巡检机器人",
+      "project_brief": "面向 2027 年赛事的第四代样机预研。",
+      "status": "备赛中",
+      "register_date": null,
+      "finish_date": null,
+      "stage_reached": "校赛",
+      "lead_major": "软件工程",
+      "leader_name": "高梦瑶",
+      "mentor_names": "王芳、吴敏",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024020101",
+          "student_name": "高梦瑶",
+          "major_name": "软件工程",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024030101",
+          "student_name": "罗一鸣",
+          "major_name": "人工智能",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025030101",
+          "student_name": "曹俊宇",
+          "major_name": "人工智能",
+          "grade": "2025级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201503",
+          "teacher_name": "王芳",
+          "role": "第一指导教师"
+        },
+        {
+          "teacher_no": "T201711",
+          "teacher_name": "吴敏",
+          "role": "指导教师"
+        }
+      ],
+      "awards": []
+    },
+    {
+      "code": "REG-2027-ROBOMASTER-01",
+      "competition_code": "ROBOMASTER",
+      "year": 2027,
+      "track_name": "机甲大师超级对抗赛",
+      "team_name": "智行者",
+      "project_title": "RoboMaster 2027 步兵与工程机器人",
+      "project_brief": "完成底盘、云台与工程机器人取矿机构的方案设计。",
+      "status": "报名中",
+      "register_date": "2026-10-16",
+      "finish_date": null,
+      "stage_reached": "报名",
+      "lead_major": "计算机科学与技术",
+      "leader_name": "何雨泽",
+      "mentor_names": "赵磊、周强、张伟",
+      "remark": "",
+      "members": [
+        {
+          "student_no": "2024010102",
+          "student_name": "何雨泽",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队长"
+        },
+        {
+          "student_no": "2024030101",
+          "student_name": "罗一鸣",
+          "major_name": "人工智能",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024060101",
+          "student_name": "唐雅欣",
+          "major_name": "物联网工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025030101",
+          "student_name": "曹俊宇",
+          "major_name": "人工智能",
+          "grade": "2025级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025020101",
+          "student_name": "邓佳琪",
+          "major_name": "软件工程",
+          "grade": "2025级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024020101",
+          "student_name": "高梦瑶",
+          "major_name": "软件工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024050101",
+          "student_name": "宋子豪",
+          "major_name": "网络工程",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024040101",
+          "student_name": "梁雨菲",
+          "major_name": "数据科学与大数据技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2024010101",
+          "student_name": "郭子怡",
+          "major_name": "计算机科学与技术",
+          "grade": "2024级",
+          "role": "队员"
+        },
+        {
+          "student_no": "2025010101",
+          "student_name": "冯子墨",
+          "major_name": "计算机科学与技术",
+          "grade": "2025级",
+          "role": "队员"
+        }
+      ],
+      "mentors": [
+        {
+          "teacher_no": "T201607",
+          "teacher_name": "赵磊",
+          "role": "第一指导教师"
+        },
+        {
+          "teacher_no": "T201402",
+          "teacher_name": "周强",
+          "role": "指导教师"
+        },
+        {
+          "teacher_no": "T201806",
+          "teacher_name": "张伟",
+          "role": "指导教师"
+        }
+      ],
+      "awards": []
+    }
+  ]
+}

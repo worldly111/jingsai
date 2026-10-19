@@ -1,0 +1,56 @@
+{
+  "college": "计算与智能技术学院",
+  "majors": [
+    {"code": "CS", "name": "计算机科学与技术", "discipline": "工学/计算机类", "description": "计算机系统结构、算法与软件开发基础扎实，适配程序设计、算法与系统类竞赛。"},
+    {"code": "SE", "name": "软件工程", "discipline": "工学/计算机类", "description": "工程化软件开发能力，适配软件应用、创新创业与计算机设计类竞赛。"},
+    {"code": "AI", "name": "人工智能", "discipline": "工学/计算机类", "description": "机器学习与智能系统方向，适配人工智能、机器人与数据类竞赛。"},
+    {"code": "DS", "name": "数据科学与大数据技术", "discipline": "工学/计算机类", "description": "数据分析与建模能力，适配统计建模、市场调查与大数据类竞赛。"},
+    {"code": "NE", "name": "网络工程", "discipline": "工学/计算机类", "description": "网络与信息安全方向，适配信息安全、CTF 与网络技术类竞赛。"},
+    {"code": "IOT", "name": "物联网工程", "discipline": "工学/计算机类", "description": "嵌入式与物联网系统方向，适配电子设计、智能汽车与物联网类竞赛。"}
+  ],
+  "teachers": [
+    {"teacher_no": "T201402", "name": "周强", "title": "教授", "department": "人工智能系", "research_areas": ["智能机器人", "自动控制"], "phone": "13800001001", "email": "zhouqiang@example.edu.cn"},
+    {"teacher_no": "T201503", "name": "王芳", "title": "副教授", "department": "软件工程系", "research_areas": ["软件工程", "Web 开发"], "phone": "13800001002", "email": "wangfang@example.edu.cn"},
+    {"teacher_no": "T201607", "name": "赵磊", "title": "高级实验师", "department": "物联网工程系", "research_areas": ["嵌入式系统", "机器人"], "phone": "13800001003", "email": "zhaolei@example.edu.cn"},
+    {"teacher_no": "T201711", "name": "吴敏", "title": "副教授", "department": "软件工程系", "research_areas": ["数字媒体", "交互设计"], "phone": "13800001004", "email": "wumin@example.edu.cn"},
+    {"teacher_no": "T201806", "name": "张伟", "title": "讲师", "department": "人工智能系", "research_areas": ["深度学习", "自然语言处理"], "phone": "13800001005", "email": "zhangwei@example.edu.cn"},
+    {"teacher_no": "T201905", "name": "陈静", "title": "讲师", "department": "数据科学系", "research_areas": ["数据挖掘", "统计分析"], "phone": "13800001006", "email": "chenjing@example.edu.cn"},
+    {"teacher_no": "T202001", "name": "李明", "title": "教授", "department": "计算机科学与技术系", "research_areas": ["机器学习", "计算机视觉"], "phone": "13800001007", "email": "liming@example.edu.cn"},
+    {"teacher_no": "T202103", "name": "孙丽", "title": "讲师", "department": "计算机科学与技术系", "research_areas": ["算法设计", "程序设计竞赛"], "phone": "13800001008", "email": "sunli@example.edu.cn"},
+    {"teacher_no": "T202205", "name": "郑浩", "title": "讲师", "department": "数据科学系", "research_areas": ["大数据平台", "云计算"], "phone": "13800001009", "email": "zhenghao@example.edu.cn"},
+    {"teacher_no": "T201209", "name": "刘洋", "title": "副教授", "department": "网络工程系", "research_areas": ["网络安全", "密码学"], "phone": "13800001010", "email": "liuyang@example.edu.cn"}
+  ],
+  "students": [
+    {"student_no": "2022010101", "name": "陈子涵", "gender": "女", "major_code": "CS", "grade": "2022级", "class_name": "计科2201", "tech_tags": ["算法竞赛", "后端开发"], "skill_level": "熟练"},
+    {"student_no": "2022010102", "name": "林子轩", "gender": "男", "major_code": "CS", "grade": "2022级", "class_name": "计科2201", "tech_tags": ["算法竞赛", "机器学习"], "skill_level": "精通"},
+    {"student_no": "2022020101", "name": "赵雨欣", "gender": "女", "major_code": "SE", "grade": "2022级", "class_name": "软工2201", "tech_tags": ["前端开发", "视觉设计"], "skill_level": "熟练"},
+    {"student_no": "2022020102", "name": "周嘉豪", "gender": "男", "major_code": "SE", "grade": "2022级", "class_name": "软工2201", "tech_tags": ["后端开发", "创新创业"], "skill_level": "熟练"},
+    {"student_no": "2022030101", "name": "吴思远", "gender": "男", "major_code": "AI", "grade": "2022级", "class_name": "人工智能2201", "tech_tags": ["机器学习", "算法竞赛"], "skill_level": "精通"},
+    {"student_no": "2022040101", "name": "黄雅琪", "gender": "女", "major_code": "DS", "grade": "2022级", "class_name": "数据科学2201", "tech_tags": ["数据分析", "数学建模"], "skill_level": "熟练"},
+    {"student_no": "2022050101", "name": "徐浩然", "gender": "男", "major_code": "NE", "grade": "2022级", "class_name": "网络工程2201", "tech_tags": ["网络安全"], "skill_level": "熟练"},
+    {"student_no": "2022060101", "name": "马晨曦", "gender": "女", "major_code": "IOT", "grade": "2022级", "class_name": "物联网2201", "tech_tags": ["嵌入式", "机器人"], "skill_level": "熟练"},
+
+    {"student_no": "2023010101", "name": "李泽楷", "gender": "男", "major_code": "CS", "grade": "2023级", "class_name": "计科2301", "tech_tags": ["算法竞赛"], "skill_level": "熟练"},
+    {"student_no": "2023010102", "name": "王梓萱", "gender": "女", "major_code": "CS", "grade": "2023级", "class_name": "计科2301", "tech_tags": ["数据分析", "机器学习"], "skill_level": "入门"},
+    {"student_no": "2023020101", "name": "张浩然", "gender": "男", "major_code": "SE", "grade": "2023级", "class_name": "软工2301", "tech_tags": ["前端开发", "创新创业"], "skill_level": "熟练"},
+    {"student_no": "2023020102", "name": "刘思彤", "gender": "女", "major_code": "SE", "grade": "2023级", "class_name": "软工2301", "tech_tags": ["视觉设计", "前端开发"], "skill_level": "熟练"},
+    {"student_no": "2023030101", "name": "陈昱衡", "gender": "男", "major_code": "AI", "grade": "2023级", "class_name": "人工智能2301", "tech_tags": ["机器学习", "数据分析"], "skill_level": "熟练"},
+    {"student_no": "2023030102", "name": "杨欣然", "gender": "女", "major_code": "AI", "grade": "2023级", "class_name": "人工智能2301", "tech_tags": ["机器学习", "视觉设计"], "skill_level": "入门"},
+    {"student_no": "2023040101", "name": "黄俊杰", "gender": "男", "major_code": "DS", "grade": "2023级", "class_name": "数据科学2301", "tech_tags": ["数据分析", "数学建模"], "skill_level": "熟练"},
+    {"student_no": "2023050101", "name": "周雨桐", "gender": "女", "major_code": "NE", "grade": "2023级", "class_name": "网络工程2301", "tech_tags": ["网络安全", "后端开发"], "skill_level": "熟练"},
+    {"student_no": "2023060101", "name": "孙铭泽", "gender": "男", "major_code": "IOT", "grade": "2023级", "class_name": "物联网2301", "tech_tags": ["嵌入式", "电子设计"], "skill_level": "熟练"},
+
+    {"student_no": "2024010101", "name": "郭子怡", "gender": "女", "major_code": "CS", "grade": "2024级", "class_name": "计科2401", "tech_tags": ["算法竞赛"], "skill_level": "入门"},
+    {"student_no": "2024010102", "name": "何雨泽", "gender": "男", "major_code": "CS", "grade": "2024级", "class_name": "计科2401", "tech_tags": ["后端开发", "算法竞赛"], "skill_level": "入门"},
+    {"student_no": "2024020101", "name": "高梦瑶", "gender": "女", "major_code": "SE", "grade": "2024级", "class_name": "软工2401", "tech_tags": ["前端开发", "视觉设计"], "skill_level": "入门"},
+    {"student_no": "2024030101", "name": "罗一鸣", "gender": "男", "major_code": "AI", "grade": "2024级", "class_name": "人工智能2401", "tech_tags": ["机器学习", "机器人"], "skill_level": "入门"},
+    {"student_no": "2024040101", "name": "梁雨菲", "gender": "女", "major_code": "DS", "grade": "2024级", "class_name": "数据科学2401", "tech_tags": ["数据分析"], "skill_level": "入门"},
+    {"student_no": "2024050101", "name": "宋子豪", "gender": "男", "major_code": "NE", "grade": "2024级", "class_name": "网络工程2401", "tech_tags": ["网络安全"], "skill_level": "入门"},
+    {"student_no": "2024060101", "name": "唐雅欣", "gender": "女", "major_code": "IOT", "grade": "2024级", "class_name": "物联网2401", "tech_tags": ["嵌入式", "电子设计"], "skill_level": "入门"},
+
+    {"student_no": "2025010101", "name": "冯子墨", "gender": "男", "major_code": "CS", "grade": "2025级", "class_name": "计科2501", "tech_tags": ["算法竞赛"], "skill_level": "入门"},
+    {"student_no": "2025020101", "name": "邓佳琪", "gender": "女", "major_code": "SE", "grade": "2025级", "class_name": "软工2501", "tech_tags": ["前端开发"], "skill_level": "入门"},
+    {"student_no": "2025030101", "name": "曹俊宇", "gender": "男", "major_code": "AI", "grade": "2025级", "class_name": "人工智能2501", "tech_tags": ["机器学习"], "skill_level": "入门"},
+    {"student_no": "2025040101", "name": "彭思琪", "gender": "女", "major_code": "DS", "grade": "2025级", "class_name": "数据科学2501", "tech_tags": ["数据分析", "数学建模"], "skill_level": "入门"}
+  ]
+}

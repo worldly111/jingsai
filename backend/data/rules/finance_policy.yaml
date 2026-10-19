@@ -1,0 +1,80 @@
+# ============================================================
+#  竞赛经费管理规则参数
+#  ------------------------------------------------------------
+#  本文件是"规则参数"的唯一出处，调整学院制度只需修改本文件或数据库中的
+#  expense_standards 表，业务代码不做任何改动。
+#
+#  参数取值参考了国内高校《学科竞赛管理办法》《差旅费管理办法》的通行做法：
+#   - 差旅席别、伙食补助 100 元/人·天、市内交通 80 元/人·天等对标
+#     《中央和国家机关差旅费管理办法》口径；
+#   - "竞赛结束后一个月内办理报销、结余资金收回""前账未清不得再借"
+#     "校内比赛不得列支住宿差旅"等为多校管理办法的共性条款；
+#   - 审批阈值（3 万元报教务处备案、5 万元报分管校领导）为常见设置，
+#     学院可按自身实际调整。
+# ============================================================
+
+currency: CNY
+
+# ---------- 审批路由 ----------
+approval:
+  # 金额低于此值由学院自行审批
+  auto_approve_below: 5000
+  # 单项经费达到此金额需报教务处审核备案
+  register_threshold: 30000
+  # 达到此金额还须分管校领导审批
+  leader_threshold: 50000
+  register_office: 教务处
+  leader_role: 分管校领导
+
+# ---------- 报销校验 ----------
+reimbursement:
+  # 竞赛结束后须在 N 日内办理报销手续，逾期需说明原因
+  deadline_days_after_event: 30
+  # 是否要求提供发票
+  invoice_required: true
+  # 单张金额超过此值必须有发票
+  invoice_required_above: 100
+  # 报销必须挂靠已批准的预算
+  require_budget_approved: true
+  # 必须附参赛通知（会议/竞赛通知）
+  require_event_notice: true
+  # 获得名次时是否必须附成绩证明
+  require_achievement_proof: false
+  # 差旅类支出是否必须附《因公出差审批表》
+  require_trip_approval: true
+  # 允许超出批准预算的比例（0 表示不允许超支）
+  max_over_budget_ratio: 0.0
+  # 票据/事由中出现以下关键词直接判定为不合规
+  forbidden_keywords:
+    - 接待
+    - 礼品
+    - 烟酒
+    - 旅游
+    - 景点门票
+    - 娱乐
+    - 罚款
+  # 按竞赛级别的额外限制
+  forbidden_for_levels:
+    - levels: ["校级"]
+      categories: ["住宿费", "交通费", "伙食补助", "市内交通"]
+      message: "校内比赛不得列支住宿费与差旅类费用"
+
+# ---------- 借款（暂付款） ----------
+loan:
+  # 借款须以已批准的预算为前提
+  require_approved_budget: true
+  # 单笔借款上限（元）
+  single_borrow_limit: 20000
+  # 前账未清不得再借
+  must_clear_previous: true
+  # 借款后须在 N 日内办理冲销
+  repay_within_days: 60
+  # 借款人身份要求
+  allowed_roles: ["在编教师"]
+
+# ---------- 预算编制 ----------
+budget:
+  # 指导教师差旅占比上限（超过时提示核对）
+  max_mentor_share: 0.4
+  # 是否要求预算说明获奖/参赛依据
+  require_achievement_basis: true

@@ -1,0 +1,60 @@
+agent: reimbursement
+name: 报销辅助
+description: 根据实际支出与票据情况整理报销单内容，并检查材料完整性与合规性。
+answer_rules:
+  - 逐条比对实际支出与批准预算，超支须显式提示并给出处理建议。
+  - 材料完整性以 checklist 形式给出，缺什么、去哪里补，要写清楚。
+  - 不合规支出（接待、礼品、旅游、校内比赛列支差旅等）直接判定为不可报销。
+  - 涉及借款冲销的，必须说明应退或应补金额。
+
+nodes:
+  - id: parse_items
+    title: 解析支出明细与票据
+    desc: 从自然语言、表格或上传的票据清单中抽取费用类别、金额、发生日期、发票号与是否有票。
+    system: |
+      你是报销单据解析助手。把用户提供的支出信息整理为结构化明细。
+    user: |
+      用户输入：{question}
+      表格数据：{payload}
+
+      请抽取每一笔支出：费用类别（报名费/交通费/住宿费/伙食补助/市内交通/耗材费/测试费/其他）、
+      项目名称、金额、发生日期、发票号、是否有发票、收款方、备注。
+      同时抽取：报销人、竞赛名称、竞赛结束日期、关联预算单号、关联借款单号、附件情况
+      （是否附参赛通知、因公出差审批表、成绩证明、票据粘贴单）。
+
+      以 JSON 输出：{{"items": [{{"category": "", "item_name": "", "amount": 0, "expense_date": "", "invoice_no": "", "has_invoice": true, "payee": "", "remark": ""}}], "claimant_name": "", "competition_name": "", "event_end_date": "", "budget_doc_no": "", "loan_doc_no": "", "attachments": {{"event_notice": true, "trip_approval": true, "achievement_proof": false, "pasted_sheet": true}}}}
+    output_schema:
+      items: object[]
+
+  - id: compute
+    title: 汇总与合规校验
+    desc: 汇总金额、比对预算、执行发票与开支范围校验、生成材料完整性清单与评分。
+
+  - id: compose
+    title: 输出报销单与补件清单
+    desc: 生成报销单内容、完整性评分、待补材料清单与办理流程说明。
+    system: |
+      你是学院财务报销助手，负责把实际支出整理为规范的报销单并检查材料完整性。
+      规则：
+      {answer_rules}
+    user: |
+      【报销单要素】
+      {structured}
+
+      【校验结果与完整性评分】
+      {checks}
+
+      【制度依据片段】
+      {evidence}
+
+      【输出要求】
+      1. 用表格输出报销单要素与支出明细。
+      2. 列出"待补材料清单"，每条写明材料名称、用途与获取途径。
+      3. 分档列出合规问题：不可报销项、需说明项、提示项。
+      4. 给出办理流程与时限提醒。
+      5. 结尾列出参考资料出处。
+
+edges:
+  - {from: START, to: parse_items}
+  - {from: parse_items, to: compute}
+  - {from: compute, to: compose}

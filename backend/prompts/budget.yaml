@@ -1,0 +1,73 @@
+agent: budget
+name: 预算申请辅助
+description: 根据赛项、人数、地点、报名费、交通住宿等信息整理预算明细，生成预算申请内容。
+answer_rules:
+  - 所有金额均由费用标准表（expense_standards）计算得出，模型不得自行编造单价或金额。
+  - 每一行明细必须说明计算依据，便于财务审核。
+  - 超出标准上限或不符合开支范围的项目要显式提示，不得静默通过。
+  - 审批流程按金额档位自动判定，阈值来自 finance_policy.yaml。
+
+nodes:
+  - id: parse_params
+    title: 解析预算要素
+    desc: 从自然语言与表单中抽取赛项、级别、人数、地点、天数、报名费、出行方式等编制预算所需的字段。
+    system: |
+      你是经费预算信息抽取助手。从用户描述中抽取编制预算所需的要素。
+    user: |
+      用户输入：{question}
+      表单数据：{payload}
+      已知赛事信息：{event_info}
+
+      请抽取以下字段（缺失留空，不要臆造）：
+      赛事名称、赛事级别（国家级/省级/校级）、赛道、参赛年份、队伍名称、
+      学生人数、指导教师人数、指导教师是否随队、参赛地点、行程天数（含往返）、
+      出行方式、报名费单价、报名费计价单位（元/人 或 元/队）、预算说明。
+
+      以 JSON 输出：{{"competition_name": "", "competition_level": "", "track_name": "", "year": null, "team_name": "", "student_count": 0, "teacher_count": 0, "mentor_trip": true, "destination": "", "trip_days": 0, "transport_mode": "", "registration_fee": null, "registration_fee_unit": "", "basis": ""}}
+    output_schema:
+      competition_name: string
+      competition_level: string
+      student_count: number
+      teacher_count: number
+      destination: string
+      trip_days: number
+      registration_fee: number|null
+
+  - id: compute
+    title: 按标准计算预算明细
+    desc: 调用经费引擎按费用标准逐项测算报名费、交通费、住宿费、伙食补助、市内交通与其他支出，并生成计算依据。
+
+  - id: policy_lookup
+    title: 检索经费制度原文
+    desc: 从知识库检索学院经费管理办法与差旅标准，作为预算说明的制度依据。
+
+  - id: compose
+    title: 生成预算申请
+    desc: 输出预算明细表、合计金额与大写金额、审批流程、风险提示与正式申请正文。
+    system: |
+      你是学院竞赛经费预算编制助手，负责把测算结果整理成规范、可审核的预算申请。
+      规则：
+      {answer_rules}
+    user: |
+      【预算要素】
+      {payload}
+
+      【测算结果（金额已按费用标准计算完毕，请勿修改数字）】
+      {structured}
+
+      【制度依据片段】
+      {evidence}
+
+      【输出要求】
+      1. 首行给出预算合计金额（小写 + 大写）。
+      2. 用表格列出预算明细：费用类别、项目、单价、数量、金额、计算依据。
+      3. 说明每一项金额对应的费用标准编号与制度出处。
+      4. 列出审批流程与需注意的风险点（超标准、缺材料、需事前审批的事项）。
+      5. 附上可直接提交的申请正文。
+      6. 结尾列出参考资料出处。
+
+edges:
+  - {from: START, to: parse_params}
+  - {from: parse_params, to: compute}
+  - {from: compute, to: policy_lookup}
+  - {from: policy_lookup, to: compose}

@@ -1,0 +1,69 @@
+agent: stats
+name: 竞赛数据统计
+description: 按年度、赛项、专业、学生、指导教师、获奖级别等维度查询与统计竞赛数据，并生成图表。
+answer_rules:
+  - 所有数字必须来自结构化台账的聚合结果，严禁模型自行推算或估计。
+  - 回答中标注统计口径（筛选条件）与数据来源。
+  - 命中零条记录时，如实说明"该条件下无数据"，并给出放宽条件的建议。
+  - 涉及排名与对比时，说明排序依据。
+
+nodes:
+  - id: parse_query
+    title: 解析统计条件
+    desc: 把自然语言转换为结构化筛选条件（年度、赛事、级别、类别、获奖等级、专业、教师、学生）与统计维度。
+    system: |
+      你是统计查询解析助手。把用户的自然语言统计需求转换为结构化查询条件。
+    user: |
+      用户问题：{question}
+
+      可用的赛事名称：{competition_names}
+      可用的专业名称：{major_names}
+      可用的获奖等级：特等奖、一等奖、二等奖、三等奖、优胜奖、入围奖
+      可用的赛事级别：国家级、省级、校级
+
+      请输出 JSON：
+      {{"years": [], "competitions": [], "levels": [], "categories": [], "award_levels": [], "majors": [], "teachers": [], "students": [], "keyword": "", "dimension": "year|competition|major|teacher|student|award_level|level", "chart": "trend|competition|award_level|major|teacher|level|workload|null", "intent": ""}}
+      说明：dimension 表示用户希望按哪个维度看数据；chart 表示适合的图表类型；条件为空数组表示不限制。
+    output_schema:
+      years: number[]
+      competitions: string[]
+      dimension: string
+      chart: string
+
+  - id: query
+    title: 结构化数据聚合
+    desc: 按筛选条件调用统计服务，使用 Pandas 聚合出总览与多维明细，全部为真实台账数据。
+
+  - id: chart
+    title: 生成图表配置
+    desc: 按统计维度生成 ECharts 配置，供前端直接渲染。
+
+  - id: compose
+    title: 生成统计结论
+    desc: 把聚合结果整理为结论、表格与图表，并说明统计口径。
+    system: |
+      你是数据分析助手，负责用简洁的语言说明统计结果。
+      规则：
+      {answer_rules}
+    user: |
+      【统计口径】
+      {structured_filter}
+
+      【总览指标】
+      {structured_overview}
+
+      【分维度明细】
+      {structured_detail}
+
+      【输出要求】
+      1. 先给出统计口径说明（筛选了哪些年度、赛事、专业等）。
+      2. 用 3-6 条要点概括关键结论（规模、结构、趋势、排名）。
+      3. 用表格呈现明细数据。
+      4. 指出值得关注的现象（如某专业获奖率高、某赛事参与度下降），并提示可能原因需进一步核实。
+      5. 说明数据来源为竞赛台账，统计时间截至当日。
+
+edges:
+  - {from: START, to: parse_query}
+  - {from: parse_query, to: query}
+  - {from: query, to: chart}
+  - {from: chart, to: compose}

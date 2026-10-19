@@ -1,0 +1,289 @@
+# ============================================================
+#  费用标准表（预算 / 报销计算依据）
+#  ------------------------------------------------------------
+#  本文件是费用标准的种子数据，导入数据库后可通过「经费辅助 - 费用标准」
+#  页面或直接修改数据库维护，无需改动代码。
+#  说明：以下数值为学院常见执行口径的参考值，请以学院最新《学科竞赛
+#  经费管理办法》与学校差旅费规定为准，按需调整。
+#
+#  字段：
+#    code / name        标准编号与名称（预算明细会引用编号，便于审计）
+#    category           报名费 / 交通费 / 住宿费 / 伙食补助 / 市内交通 /
+#                       耗材费 / 测试费 / 图书资料费 / 培训费 / 劳务费 / 其他
+#    competition_level  国家级 / 省级 / 校级 / 不限
+#    region             适用地区：不限 / 北京 / 上海 / 广州 / 深圳 / 西藏 / 青海 / 新疆
+#    value_type         fixed 固定金额 / cap 上限 / unit_price 单价 / ratio 比例
+#    value / unit       数值与计量单位
+#    condition          附加条件（说明性）
+# ============================================================
+
+standards:
+  # ---------- 报名费 ----------
+  - code: ES-BM-GJ
+    name: 国家级竞赛报名费标准
+    category: 报名费
+    competition_level: 国家级
+    region: 不限
+    value_type: cap
+    value: 500
+    unit: 元/人
+    condition: { per: 人, note: 以赛事通知公布金额为准，超出需说明 }
+    description: 国家级学科竞赛报名（参赛）费，按人头计列，凭赛事通知与票据报销。
+
+  - code: ES-BM-SJ
+    name: 省级竞赛报名费标准
+    category: 报名费
+    competition_level: 省级
+    region: 不限
+    value_type: cap
+    value: 300
+    unit: 元/人
+    condition: { per: 人 }
+    description: 省级学科竞赛报名费上限，按队报名时按队均摊到人。
+
+  - code: ES-BM-XJ
+    name: 校级竞赛报名费标准
+    category: 报名费
+    competition_level: 校级
+    region: 不限
+    value_type: fixed
+    value: 0
+    unit: 元/人
+    condition: { per: 人 }
+    description: 校级竞赛原则上不收取报名费，由学院统一组织。
+
+  # ---------- 交通费（学校所在地—赛区往返） ----------
+  - code: ES-JT-GJ
+    name: 国家级竞赛往返交通费上限
+    category: 交通费
+    competition_level: 国家级
+    region: 不限
+    value_type: cap
+    value: 2000
+    unit: 元/人（往返）
+    condition: { seat: 高铁/动车二等座 }
+    description: 按高铁/动车二等座或同标准交通工具据实报销，不超上限；远途可乘飞机经济舱。
+
+  - code: ES-JT-SJ
+    name: 省级竞赛往返交通费上限
+    category: 交通费
+    competition_level: 省级
+    region: 不限
+    value_type: cap
+    value: 800
+    unit: 元/人（往返）
+    condition: { seat: 高铁/动车二等座 }
+    description: 省内参赛往返交通费上限。
+
+  - code: ES-JT-XJ
+    name: 校级竞赛交通费
+    category: 交通费
+    competition_level: 校级
+    region: 不限
+    value_type: fixed
+    value: 0
+    unit: 元/人（往返）
+    condition: { note: 校内竞赛不列支交通费 }
+    description: 校级竞赛在校内举行，不列支交通、住宿与伙食补助。
+
+  # ---------- 住宿费 ----------
+  - code: ES-ZS-GJ
+    name: 国家级竞赛住宿费标准（一般地区）
+    category: 住宿费
+    competition_level: 国家级
+    region: 不限
+    value_type: cap
+    value: 500
+    unit: 元/人·天
+    condition: { standard: 其他人员 }
+    description: 按出差住宿费标准据实报销，不超上限，凭住宿发票。
+
+  - code: ES-ZS-GJ-BJ
+    name: 国家级竞赛住宿费标准（北京）
+    category: 住宿费
+    competition_level: 国家级
+    region: 北京
+    value_type: cap
+    value: 650
+    unit: 元/人·天
+    condition: { standard: 其他人员 }
+    description: 北京地区执行上浮标准。
+
+  - code: ES-ZS-GJ-SH
+    name: 国家级竞赛住宿费标准（上海）
+    category: 住宿费
+    competition_level: 国家级
+    region: 上海
+    value_type: cap
+    value: 650
+    unit: 元/人·天
+    condition: { standard: 其他人员 }
+    description: 上海地区执行上浮标准。
+
+  - code: ES-ZS-GJ-GZ
+    name: 国家级竞赛住宿费标准（广州）
+    category: 住宿费
+    competition_level: 国家级
+    region: 广州
+    value_type: cap
+    value: 600
+    unit: 元/人·天
+    condition: { standard: 其他人员 }
+    description: 广州地区执行上浮标准。
+
+  - code: ES-ZS-GJ-SZ
+    name: 国家级竞赛住宿费标准（深圳）
+    category: 住宿费
+    competition_level: 国家级
+    region: 深圳
+    value_type: cap
+    value: 600
+    unit: 元/人·天
+    condition: { standard: 其他人员 }
+    description: 深圳地区执行上浮标准。
+
+  - code: ES-ZS-SJ
+    name: 省级竞赛住宿费标准
+    category: 住宿费
+    competition_level: 省级
+    region: 不限
+    value_type: cap
+    value: 400
+    unit: 元/人·天
+    condition: { standard: 其他人员 }
+    description: 省内参赛住宿标准。
+
+  - code: ES-ZS-XJ
+    name: 校级竞赛住宿费
+    category: 住宿费
+    competition_level: 校级
+    region: 不限
+    value_type: fixed
+    value: 0
+    unit: 元/人·天
+    condition: { note: 校内竞赛不列支住宿费 }
+    description: 校级竞赛不列支住宿费。
+
+  # ---------- 伙食补助 ----------
+  - code: ES-HS-GJ
+    name: 国家级竞赛伙食补助标准
+    category: 伙食补助
+    competition_level: 国家级
+    region: 不限
+    value_type: fixed
+    value: 100
+    unit: 元/人·天
+    condition: { mode: 包干 }
+    description: 按出差自然天数包干发放；由接待单位统一安排伙食的不得重复领取。
+
+  - code: ES-HS-SJ
+    name: 省级竞赛伙食补助标准
+    category: 伙食补助
+    competition_level: 省级
+    region: 不限
+    value_type: fixed
+    value: 80
+    unit: 元/人·天
+    condition: { mode: 包干 }
+    description: 省内参赛伙食补助。
+
+  - code: ES-HS-XJ
+    name: 校级竞赛伙食补助
+    category: 伙食补助
+    competition_level: 校级
+    region: 不限
+    value_type: fixed
+    value: 0
+    unit: 元/人·天
+    condition: { note: 校内竞赛不列支伙食补助 }
+    description: 校级竞赛不列支伙食补助。
+
+  # ---------- 市内交通 ----------
+  - code: ES-SN-GJ
+    name: 国家级竞赛市内交通费标准
+    category: 市内交通
+    competition_level: 国家级
+    region: 不限
+    value_type: fixed
+    value: 80
+    unit: 元/人·天
+    condition: { mode: 包干 }
+    description: 驻地与赛场之间的公共交通费用，包干使用；使用学校公务用车的不再补贴。
+
+  - code: ES-SN-SJ
+    name: 省级竞赛市内交通费标准
+    category: 市内交通
+    competition_level: 省级
+    region: 不限
+    value_type: fixed
+    value: 60
+    unit: 元/人·天
+    condition: { mode: 包干 }
+    description: 省内参赛市内交通包干标准。
+
+  - code: ES-SN-XJ
+    name: 校级竞赛市内交通费
+    category: 市内交通
+    competition_level: 校级
+    region: 不限
+    value_type: fixed
+    value: 0
+    unit: 元/人·天
+    condition: { note: 校内竞赛不列支 }
+    description: 校级竞赛不列支市内交通费。
+
+  # ---------- 其他直接费用 ----------
+  - code: ES-HC-01
+    name: 竞赛作品耗材费
+    category: 耗材费
+    competition_level: 不限
+    region: 不限
+    value_type: cap
+    value: 2000
+    unit: 元/队
+    condition: { require: 采购清单与发票 }
+    description: 元器件、打印、刻录等作品制作耗材，按队设上限，据实报销。
+
+  - code: ES-CS-01
+    name: 作品测试与检测费
+    category: 测试费
+    competition_level: 不限
+    region: 不限
+    value_type: cap
+    value: 3000
+    unit: 元/队
+    condition: { require: 检测机构发票与报告 }
+    description: 第三方检测、认证、加工等费用。
+
+  - code: ES-TS-01
+    name: 图书资料费
+    category: 图书资料费
+    competition_level: 不限
+    region: 不限
+    value_type: cap
+    value: 800
+    unit: 元/队
+    condition: { require: 购书发票与清单 }
+    description: 与参赛作品直接相关的图书、文献资料购置费。
+
+  - code: ES-PX-01
+    name: 赛前集训培训费
+    category: 培训费
+    competition_level: 不限
+    region: 不限
+    value_type: cap
+    value: 2000
+    unit: 元/队
+    condition: { require: 事前审批 }
+    description: 赛前集中培训发生的场地、资料等费用，须事前审批。
+
+  - code: ES-LW-01
+    name: 专家评审与劳务费
+    category: 劳务费
+    competition_level: 不限
+    region: 不限
+    value_type: cap
+    value: 800
+    unit: 元/人
+    condition: { require: 劳务发放表 }
+    description: 校赛评审、指导讲座等劳务支出，按人次控制，凭发放表报销。

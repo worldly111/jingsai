@@ -1,0 +1,122 @@
+# ============================================================
+#  获奖积分与教师指导工作量折算规则
+#  ------------------------------------------------------------
+#  统计模块「教师工作量」与「学生积分」按本表折算；
+#  新增奖项等级或调整系数时修改本文件后重新导入即可，无需改代码。
+#  参考口径：学院竞赛管理办法与教学工作量核算办法，请按学院实际调整。
+# ============================================================
+
+rules:
+  # ---------- 国家级 ----------
+  - award_grade: 国家级
+    award_level: 特等奖
+    student_points: 10
+    teacher_workload: 80
+    note: 国家级特等奖，按 80 当量学时折算指导工作量
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 国家级
+    award_level: 一等奖
+    student_points: 8
+    teacher_workload: 60
+    note: 国家级一等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 国家级
+    award_level: 二等奖
+    student_points: 6
+    teacher_workload: 40
+    note: 国家级二等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 国家级
+    award_level: 三等奖
+    student_points: 4
+    teacher_workload: 24
+    note: 国家级三等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 国家级
+    award_level: 优胜奖
+    student_points: 2
+    teacher_workload: 12
+    note: 国家级优胜奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 国家级
+    award_level: 入围奖
+    student_points: 1
+    teacher_workload: 6
+    note: 国家级入围奖（含省级选拔推荐）
+    source: 学院学科竞赛管理办法（参考口径）
+
+  # ---------- 省级 ----------
+  - award_grade: 省级
+    award_level: 特等奖
+    student_points: 6
+    teacher_workload: 40
+    note: 省级特等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 省级
+    award_level: 一等奖
+    student_points: 4
+    teacher_workload: 28
+    note: 省级一等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 省级
+    award_level: 二等奖
+    student_points: 3
+    teacher_workload: 18
+    note: 省级二等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 省级
+    award_level: 三等奖
+    student_points: 2
+    teacher_workload: 10
+    note: 省级三等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 省级
+    award_level: 优胜奖
+    student_points: 1
+    teacher_workload: 6
+    note: 省级优胜奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 省级
+    award_level: 入围奖
+    student_points: 0.5
+    teacher_workload: 3
+    note: 省级入围奖
+    source: 学院学科竞赛管理办法（参考口径）
+
+  # ---------- 校级 ----------
+  - award_grade: 校级
+    award_level: 特等奖
+    student_points: 3
+    teacher_workload: 16
+    note: 校级特等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 校级
+    award_level: 一等奖
+    student_points: 2
+    teacher_workload: 10
+    note: 校级一等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 校级
+    award_level: 二等奖
+    student_points: 1
+    teacher_workload: 6
+    note: 校级二等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 校级
+    award_level: 三等奖
+    student_points: 0.5
+    teacher_workload: 3
+    note: 校级三等奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 校级
+    award_level: 优胜奖
+    student_points: 0.3
+    teacher_workload: 2
+    note: 校级优胜奖
+    source: 学院学科竞赛管理办法（参考口径）
+  - award_grade: 校级
+    award_level: 入围奖
+    student_points: 0.2
+    teacher_workload: 1
+    note: 校级入围奖
+    source: 学院学科竞赛管理办法（参考口径）
